@@ -1,0 +1,62 @@
+/* Style global pour la page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Titre principal */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+/* Grille des projets */
+.grid-projets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    padding: 20px;
+}
+
+/* Chaque case de projet */
+.case-projet {
+    border: 1px solid #ccc;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+    transition: transform 0.3s ease;
+}
+
+.case-projet:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Image de chaque projet */
+.case-projet img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Nom de l'étudiant */
+.case-projet h3 {
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Lien du projet */
+.case-projet a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.case-projet a:hover {
+    text-decoration: underline;
+}

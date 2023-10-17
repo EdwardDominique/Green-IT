@@ -1,33 +1,23 @@
-import React, { useState } from 'react';
-import Accueil from './components/Accueil';
-import Projet from './components/Projet';
-import Reference from './components/Reference';
-import Toolbar from './components/Toolbar';
+import React from "react";
+import Header from "./components/Header";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import ProjectsPage from "./pages/ProjectsPage";
+import ReferencesPage from "./pages/ReferencesPage";
 
 function App() {
-    const [tab, setTab] = useState('accueil');
-
-    const renderContent = () => {
-        switch(tab) {
-            case 'accueil':
-                return <Accueil />;
-            case 'projet':
-                return <Projet />;
-            case 'reference':
-                return <Reference />;
-            default:
-                return <div>Sélectionnez un onglet.</div>;
-        }
-    };
-
-    return (
-        <div>
-            <Toolbar onSelectTab={setTab} />
-            <div>
-                {renderContent()}
-            </div>
-        </div>
-    );
+  return (
+    <Router>
+      <div>
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/projets" element={<ProjectsPage />} />
+          <Route path="/references" element={<ReferencesPage />} />
+        </Routes>
+      </div>
+    </Router>
+  );
 }
 
 export default App;
