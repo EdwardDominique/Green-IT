@@ -1,0 +1,65 @@
+.reference-page {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #4CAF50;  /* Vert Green IT */
+    color: #fff;
+    padding: 10px 0;
+    margin-bottom: 20px;
+}
+
+.introduction {
+    background-color: #e8f5e9; /* Vert clair */
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.references-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.reference-item {
+    border: 1px solid #ccc;
+    padding: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.reference-item:hover {
+    transform: translateY(-5px);
+}
+
+.reference-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.reference-item h2 {
+    margin: 10px 0;
+    color: #333;
+}
+
+.reference-item a {
+    display: inline-block;
+    padding: 6px 12px;
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.reference-item a:hover {
+    background-color: #388E3C; /* Vert foncé */
+}
