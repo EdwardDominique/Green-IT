@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 }
+
+.toolbar {
+  background-color: #f4f4f4;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.toolbar button {
+  background-color: #ddd;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toolbar button:hover {
+  background-color: #bbb;
+}

@@ -1,26 +1,33 @@
-import React from "react";
-import { AppBar, Toolbar, Typography, Button, IconButton } from "@mui/material";
-import MenuIcon from "@mui/icons-material/Menu";
+import React, { useState } from 'react';
+import Accueil from './components/Accueil';
+import Projet from './components/Projet';
+import Reference from './components/Reference';
+import Toolbar from './components/Toolbar';
 
 function App() {
-  return (
-    <div>
-      <AppBar position="static">
-        <Toolbar>
-          <IconButton size="large" edge="start" color="inherit" aria-label="menu">
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" style={{ flexGrow: 1 }}>
-            Green [it]
-          </Typography>
-          <Button color="inherit">Accueil</Button>
-          <Button color="inherit">Projets</Button>
-          <Button color="inherit">Contact</Button>
-        </Toolbar>
-      </AppBar>
-      {/* Votre contenu ici */}
-    </div>
-  );
+    const [tab, setTab] = useState('accueil');
+
+    const renderContent = () => {
+        switch(tab) {
+            case 'accueil':
+                return <Accueil />;
+            case 'projet':
+                return <Projet />;
+            case 'reference':
+                return <Reference />;
+            default:
+                return <div>Sélectionnez un onglet.</div>;
+        }
+    };
+
+    return (
+        <div>
+            <Toolbar onSelectTab={setTab} />
+            <div>
+                {renderContent()}
+            </div>
+        </div>
+    );
 }
 
 export default App;
