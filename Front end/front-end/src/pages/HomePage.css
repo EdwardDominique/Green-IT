@@ -24,3 +24,15 @@ footer {
     color: white;
     border-radius: 5px;
 }
+
+.banner {
+    display: flex;
+    align-items: center; /* Aligne verticalement les éléments au centre */
+    justify-content: center; /* Aligne horizontalement les éléments au centre */
+    background-color: #333;
+    padding: 10px; /* Espace autour du bandeau */
+}
+
+.App-logo {
+    margin-right: 10px; /* Espace à droite du logo */
+}

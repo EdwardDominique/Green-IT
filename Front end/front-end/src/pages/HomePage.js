@@ -4,8 +4,10 @@ import './HomePage.css';
 function HomePage() {
     return (
         <div className="accueil-container">
-          <img src="logo.png" className="App-logo" alt="Green [it] logo" />
-          <h1>Green [it]</h1>
+            <div className="banner">
+                <img src="logo.png" className="App-logo" alt="logo" />
+                <h1>Green [it]</h1>
+            </div>
             <section id="introduction">
                 <h1>Green [it] - L'innovation au service de la planète</h1>
                 <p>Bienvenue sur Green [it], la plateforme dédiée aux projets étudiants d'ingénierie informatique centrés sur l'écologie et la durabilité. Notre mission est de mettre en avant les efforts de la nouvelle génération pour allier technologie et respect de l'environnement.</p>
