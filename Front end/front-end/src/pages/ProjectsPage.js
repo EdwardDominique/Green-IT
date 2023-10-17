@@ -1,6 +1,9 @@
 import React from 'react';
 import './ProjectsPage.css';
 
+const couleurs = ['#52AD9C', '#6CC551'];
+const motif = [1, 2, 2, 1, 1, 2, 2, 1, 1, 2];
+
 function ProjectsPage() {
     const projets = [
         { imgSrc: 'lien_vers_image1.jpg', nom: 'Gaspard CHARLES', lien: '', titre: 'Projet 1' },
@@ -20,7 +23,7 @@ function ProjectsPage() {
             <h1>Projets d'étudiants en ingénierie informatique</h1>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                 {projets.map((projet, index) => (
-                    <div key={index} style={{ border: '1px solid black', padding: '16px', boxSizing: 'border-box' }}>
+                    <div key={index} style={{ border: '1px solid black', padding: '16px', boxSizing: 'border-box', backgroundColor: couleurs[motif[index % motif.length] - 1] }}>
                         <img src={projet.imgSrc} alt={projet.titre} style={{ width: '100%', height: 'auto' }} />
                         <h3>{projet.nom}</h3>
                         <a href={projet.lien}>{projet.titre}</a>
