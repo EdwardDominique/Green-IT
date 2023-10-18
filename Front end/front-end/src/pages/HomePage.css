@@ -39,7 +39,7 @@ footer {
 }
 
 body {
-    background-image: url('../pictures/matrix.jpg');
+    background-image: url('../pictures/parquet.jpg');
     background-size: cover; /* Pour couvrir toute la zone */
     background-repeat: no-repeat; /* Pour éviter que l'image ne se répète */
     background-position: center; /* Pour centrer l'image */
