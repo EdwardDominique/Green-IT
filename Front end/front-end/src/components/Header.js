@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <AppBar position="static">
-      <Toolbar>
+      <Toolbar style={{ backgroundColor: '#3E4B4C' }}>
+        <img src="logo.png" className="App-logo" alt="logo" />
         <Typography variant="h6" style={{ flexGrow: 1 }}>
           Green [it]
         </Typography>

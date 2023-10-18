@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectsPage.css';
 
-const couleurs = ['#52AD9C', '#6CC551'];
+const couleurs = ['#FCD0A1', '#AFD2E9'];
 const motif = [1, 2, 2, 1, 1, 2, 2, 1, 1, 2];
 
 function ProjectsPage() {

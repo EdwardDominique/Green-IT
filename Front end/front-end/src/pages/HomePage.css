@@ -4,13 +4,13 @@
 }
 
 #introduction {
-    background-color: #e8f4dc;
+    background-color: #B1B695;
     padding: 20px;
     border-radius: 5px;
 }
 
 #student-projects, #references {
-    background-color: #e8f4dc;
+    background-color: #B1B695;
     margin-top: 20px;
     padding: 20px;
     border: 1px solid #d4d4d4;
@@ -21,7 +21,7 @@ footer {
     margin-top: 20px;
     text-align: center;
     padding: 10px;
-    background-color: #333;
+    background-color: #3E4B4C;
     color: white;
     border-radius: 5px;
 }
@@ -30,7 +30,7 @@ footer {
     display: flex;
     align-items: center; /* Aligne verticalement les éléments au centre */
     justify-content: center; /* Aligne horizontalement les éléments au centre */
-    background-color: #333;
+    background-color: #011638;
     padding: 10px; /* Espace autour du bandeau */
 }
 
@@ -39,7 +39,7 @@ footer {
 }
 
 body {
-    background-image: url('../pictures/circuit.jpg');
+    background-image: url('../pictures/matrix.jpg');
     background-size: cover; /* Pour couvrir toute la zone */
     background-repeat: no-repeat; /* Pour éviter que l'image ne se répète */
     background-position: center; /* Pour centrer l'image */

@@ -4,7 +4,7 @@
 }
 
 .introduction {
-    background-color: #e8f5e9; /* Vert clair */
+    background-color: #FCD0A1; /* Vert clair */
     padding: 15px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -23,6 +23,15 @@
     background-color: #fff;
     border-radius: 8px;
     transition: transform 0.3s ease;
+}
+
+.reference-item:nth-child(odd) {
+    background-color: #AFD2E9; /* Gris clair, par exemple */
+}
+
+/* Couleur pour les cases paires (2, 4, 6, ...) */
+.reference-item:nth-child(even) {
+    background-color: #B1B695; /* Gris un peu plus foncé, par exemple */
 }
 
 .reference-item:hover {
