@@ -23,7 +23,7 @@ function App() {
           <Route path="reference2" element={<Reference2 />} />
           <Route path="reference3" element={<Reference3 />} />
           <Route path="reference4" element={<Reference4 />} />
-          <Route path="reference5" element={<Reference4 />} />
+          <Route path="reference5" element={<Reference5 />} />
         </Routes>
       </div>
     </Router>

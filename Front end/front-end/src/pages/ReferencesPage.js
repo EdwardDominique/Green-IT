@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import ref2Image from '../pictures/ref2.png';
 import ref3Image from '../pictures/ref3.png';
 import ref4Image from '../pictures/ref4.jpg';
+import ref5Image from '../pictures/ref5.png';
 
 function Reference() {
     const references = [
@@ -32,10 +33,10 @@ function Reference() {
             auteur: 'Aurélien MANCEAU'
         },
         {
-            titre: 'ref5',
-            imgSrc: 'image.jpg',
-            description: 'une description',
-            auteur: ''
+            titre: 'Évaluation de la Green IT et des Pratiques de Programmation Écoénergétiques',
+            imgSrc: ref5Image,
+            description: "Le rapport évalue l'impact environnemental du développement logiciel, explore l'efficacité énergétique des langages de programmation, et analyse les attitudes des programmeurs envers la Green IT. Des langages comme C et Rust sont identifiés comme écoénergétiques, et des outils comme PageSpeed Insights et GraphQL sont présentés comme des moyens efficaces d'améliorer l'efficacité énergétique du développement web.",
+            auteur: 'Léonard BONNEVILLE'
         },
         
     ];
