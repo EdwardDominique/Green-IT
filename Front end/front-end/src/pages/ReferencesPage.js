@@ -2,6 +2,7 @@ import React from 'react';
 import './ReferencesPage.css';
 import { Link } from 'react-router-dom';
 import ref2Image from '../pictures/ref2.png';
+import ref3Image from '../pictures/ref3.png';
 
 function Reference() {
     const references = [
@@ -18,10 +19,10 @@ function Reference() {
             auteur: 'Aurélien MANCEAU'
         },
         {
-            titre: 'ref3',
-            imgSrc: 'image.jpg',
-            description: 'une description',
-            auteur: ''
+            titre: 'Évaluation des Technologies Blockchain pour la Gestion des Transactions et des Actifs en Utilisant les Principes de Green IT',
+            imgSrc: ref3Image,
+            description: "L'étude évalue la technologie Blockchain pour gérer les transactions et les actifs en se basant sur les principes de Green IT. Des améliorations notables ont été observées, notamment une réduction de la consommation d'énergie de 30%, une augmentation de l'efficacité du traitement de 20% et une réduction des émissions de CO2 de 25%. Ces améliorations ont été obtenues grâce à l'optimisation des algorithmes de consensus, l'utilisation de matériel éco-énergétique, et l'emploi d'énergies renouvelables.",
+            auteur: 'Léonard BONNEVILLE'
         },
         {
             titre: 'ref4',
