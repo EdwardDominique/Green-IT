@@ -7,7 +7,7 @@ import './Header.css';
 function Header() {
   return (
     <AppBar position="static">
-      <Toolbar style={{ backgroundColor: '#3E4B4C' }}>
+      <Toolbar style={{ backgroundColor: '#3E4B4C' }} className="responsive-toolbar">
         <img src={logo} class="image-classe" alt="logo" />
         <Button color="inherit" component={Link} to="/" style={{ fontSize: 'larger' }}>Accueil</Button>
         <Button color="inherit" component={Link} to="/projets" style={{ fontSize: 'larger' }}>Projets</Button>

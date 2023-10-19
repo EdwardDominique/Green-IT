@@ -1,0 +1,42 @@
+.article-page {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.article-page h1 {
+    font-size: 2em; /* Rend les titres principaux plus grands */
+}
+
+#article-section h1 {
+    font-size: 1.5em; /* Rend les titres des sections légèrement plus petits que le titre principal */
+    border-bottom: 2px solid #3E4B4C; /* Une ligne sous les titres de section pour les mettre en valeur */
+    padding-bottom: 2px; /* Un peu d'espace entre le titre et la ligne */
+}
+
+#article-section p {
+    font-size: 1em; /* Taille standard pour le texte */
+    line-height: 1.5; /* Espace entre les lignes pour une meilleure lisibilité */
+}
+
+#article-section {
+    background-color: #B1B695;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.back-button {
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px; /* ou une autre valeur qui vous convient */
+
+    /* Augmenter l'espace intérieur du bouton */
+    padding: 15px 30px; /* 15px pour le haut et le bas, 30px pour la gauche et la droite */
+}
+
+.back-button:hover {
+    background-color: darkgray;
+}

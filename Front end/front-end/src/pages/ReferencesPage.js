@@ -1,34 +1,34 @@
 import React from 'react';
 import './ReferencesPage.css';
+import { Link } from 'react-router-dom';
 
 function Reference() {
-    // Un exemple de données pour les références
     const references = [
         {
             titre: 'ref1',
             imgSrc: 'image.jpg',
             description: 'une description',
-            lien: ''
+            auteur: ''
         },
         {
             titre: 'ref2',
             imgSrc: 'image.jpg',
             description: 'une description',
-            lien: ''
+            auteur: ''
         },
         {
             titre: 'ref3',
             imgSrc: 'image.jpg',
             description: 'une description',
-            lien: ''
+            auteur: ''
         },
         {
             titre: 'ref4',
             imgSrc: 'image.jpg',
             description: 'une description',
-            lien: ''
+            auteur: ''
         },
-        //... Ajoutez autant de références que nécessaire
+        
     ];
 
     return (
@@ -43,7 +43,10 @@ function Reference() {
                         <img src={reference.imgSrc} alt={reference.titre} />
                         <h2>{reference.titre}</h2>
                         <p>{reference.description}</p>
-                        <a href={reference.lien}>Découvrir</a>
+                        <div className="reference-link-author">
+                            <Link to={`/reference${index + 1}`}>Découvrir</Link>
+                            <span className="reference-author">{reference.auteur}</span>
+                        </div>
                     </div>
                 ))}
             </div>
