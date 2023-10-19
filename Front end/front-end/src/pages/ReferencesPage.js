@@ -37,7 +37,7 @@ function Reference() {
             <section className="introduction">
                 <p>Cette page a pour objectif de rediriger vers des sites proposant des solutions pour le Green IT, afin d'encourager une informatique plus responsable et durable.</p>
             </section>
-            <div className="references-grid">
+            <div className="references-grid" >
                 {references.map((reference, index) => (
                     <div key={index} className="reference-item">
                         <img src={reference.imgSrc} alt={reference.titre} />

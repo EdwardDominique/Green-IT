@@ -19,7 +19,7 @@ function ProjectsPage() {
     ];
 
     return (
-        <div>
+        <div className="projects-page">
             <h1>Projets d'étudiants en ingénierie informatique</h1>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px' }}>
                 {projets.map((projet, index) => (

@@ -47,6 +47,5 @@ html, body {
 body {
     background-image: url('../pictures/bulle.jpg');
     background-size: cover; /* Pour couvrir toute la zone */
-    background-repeat: no-repeat;
     background-position: center; /* Pour centrer l'image */
 }

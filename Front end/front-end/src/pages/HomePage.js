@@ -5,8 +5,8 @@ function HomePage() {
     return (
         <div className="accueil-container">
             <section id="introduction">
-                <h1>Green [it] - L'innovation au service de la planète</h1>
-                <p>Bienvenue sur Green [it], la plateforme dédiée aux projets étudiants d'ingénierie informatique centrés sur l'écologie et la durabilité. Notre mission est de mettre en avant les efforts de la nouvelle génération pour allier technologie et respect de l'environnement.</p>
+                <h1>EcoCode - L'innovation au service de la planète</h1>
+                <p>Bienvenue sur EcoCode, la plateforme dédiée aux projets étudiants d'ingénierie informatique centrés sur l'écologie et la durabilité. Notre mission est de mettre en avant les efforts de la nouvelle génération pour allier technologie et respect de l'environnement.</p>
             </section>
 
             <section id="student-projects">
