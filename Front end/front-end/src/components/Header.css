@@ -2,3 +2,14 @@
     width: 158px;
     height: 102px;
 }
+
+@media (max-width: 600px) {
+    .responsive-toolbar {
+      flex-direction: column;
+    }
+  
+    .responsive-toolbar img, 
+    .responsive-toolbar button {
+      margin: 5px 0; /* Ajouter un peu d'espace entre les éléments lorsqu'ils sont empilés */
+    }
+  }
