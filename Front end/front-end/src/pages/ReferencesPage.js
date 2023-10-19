@@ -3,6 +3,7 @@ import './ReferencesPage.css';
 import { Link } from 'react-router-dom';
 import ref2Image from '../pictures/ref2.png';
 import ref3Image from '../pictures/ref3.png';
+import ref4Image from '../pictures/ref4.jpg';
 
 function Reference() {
     const references = [
@@ -25,7 +26,13 @@ function Reference() {
             auteur: 'Léonard BONNEVILLE'
         },
         {
-            titre: 'ref4',
+            titre: 'Le Green Coding : Vers une Informatique Plus Durable',
+            imgSrc: ref4Image,
+            description: "La demande mondiale en électricité a augmenté avec l'évolution de la programmation informatique. Pourtant, le green coding émerge comme une solution pour réduire la consommation énergétique des technologies de l'information. Voici les principales solutions mises en avant pour une programmation plus respectueuse de l'environnement.",
+            auteur: 'Aurélien MANCEAU'
+        },
+        {
+            titre: 'ref5',
             imgSrc: 'image.jpg',
             description: 'une description',
             auteur: ''
