@@ -11,7 +11,10 @@ function Reference4() {
 
     return (
         <div className="article-page">
-            <button className="back-button" onClick={handleBack}>Retour</button>
+            <div className="header-buttons">
+                <button className="back-button" onClick={handleBack}>Retour</button>
+                <a href="" className="site-link-button">Visiter le site</a>
+            </div>
             <h1>Ceci est la ref 4</h1>
             <section id="article-section">
                 <h1>section 1</h1>

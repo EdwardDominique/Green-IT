@@ -31,12 +31,22 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 18px; /* ou une autre valeur qui vous convient */
-
-    /* Augmenter l'espace intérieur du bouton */
-    padding: 15px 30px; /* 15px pour le haut et le bas, 30px pour la gauche et la droite */
+    font-size: 18px;
+    padding: 15px 30px;
 }
 
-.back-button:hover {
-    background-color: darkgray;
+.header-buttons {
+    display: flex;
+    justify-content: space-between; /* Sépare les boutons à chaque extrémité */
+    align-items: center; /* Aligne verticalement les boutons */
+}
+
+.site-link-button {
+    background-color: #AFD2E9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 15px 30px;
 }

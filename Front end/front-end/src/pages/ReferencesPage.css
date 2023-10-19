@@ -17,6 +17,10 @@
 }
 
 .reference-item {
+    flex-direction: column;
+    display: flex;
+    align-items:  flex-start;
+    gap: 20px; /* Espace entre l'image et les détails, ajustez selon vos besoins. */
     border: 1px solid #ccc;
     padding: 16px;
     box-sizing: border-box;
@@ -51,15 +55,34 @@
 }
 
 .reference-item a {
-    display: inline-block;
+    display: flex;
     padding: 6px 12px;
     text-decoration: none;
     background-color: #4CAF50;
     color: #fff;
     border-radius: 4px;
-    transition: background-color 0.3s ease;
+    align-items: start; /* Aligne les éléments en haut */
+    justify-content: flex-start;
 }
 
 .reference-item a:hover {
     background-color: #388E3C; /* Vert foncé */
+}
+
+.reference-image {
+    margin-right: 15px; /* Espacement entre l'image et les détails */
+}
+
+.reference-details {
+    display: flex; /* Ajustez pour une disposition flex */
+    flex-direction: row; /* Organisez en ligne pour le titre et la description à droite de l'image */
+    flex: 1; /* Prenez tout l'espace disponible */
+    align-items: center; /* Centrez les éléments verticalement */
+}
+
+.reference-link-author {
+    display: flex;
+    justify-content: space-between; /* Espace entre le lien "Découvrir" et le nom de l'auteur */
+    width: 100%; /* Prend toute la largeur du conteneur parent */
+    margin-top: 10px; /* Espacement entre les détails et cette section */
 }
