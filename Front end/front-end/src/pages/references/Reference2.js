@@ -13,7 +13,7 @@ function Reference2() {
         <div className="article-page">
             <div className="header-buttons">
                 <button className="back-button" onClick={handleBack}>Retour</button>
-                <a href="https://greenspector.com/fr/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/" className="site-link-button">Visiter le site</a>
+                <a href="https://greenspector.com/fr/quels-sont-les-meilleurs-navigateurs-web-android-a-utiliser-en-2021/" target="_blank" rel="noopener noreferrer" className="site-link-button">Visiter le site</a>
             </div>
             <h1>Analyse Énergétique et Environnementale des Navigateurs Web Android en 2021</h1>
             <section id="article-section">

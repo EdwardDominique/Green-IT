@@ -13,7 +13,7 @@ function Reference5() {
         <div className="article-page">
             <div className="header-buttons">
                 <button className="back-button" onClick={handleBack}>Retour</button>
-                <a href="https://www.diva-portal.org/smash/get/diva2:1675178/FULLTEXT02" className="site-link-button">Visiter le site</a>
+                <a href="https://www.diva-portal.org/smash/get/diva2:1675178/FULLTEXT02" target="_blank" rel="noopener noreferrer" className="site-link-button">Visiter le site</a>
             </div>
             <h1>Impact du Green IT (Technologies de l'Information Vertes) dans le Développement Web</h1>
             <section id="article-section">
@@ -31,20 +31,17 @@ function Reference5() {
             <section id="article-section">
                 <h1>3. Techniques de Green IT :</h1>
                 <ul>
-                    <li>
-                        Les langages de programmation C et Rust ont été identifiés comme les plus écoénergétiques, tandis que PHP et JavaScript sont plus efficaces que Swift, Perl, R, et Python. 
+                    <li>Les langages de programmation C et Rust ont été identifiés comme les plus écoénergétiques, tandis que PHP et JavaScript sont plus efficaces que Swift, Perl, R, et Python. 
                         <ul>
                             <li>Méthodologie: Les tests ont été conduits en utilisant des benchmarks standardisés qui mesurent la consommation d'énergie lors de l'exécution de tâches spécifiques. L'efficacité énergétique a été évaluée en mesurant la consommation d'énergie durant l'exécution de ces tâches dans différents langages de programmation.</li>
                         </ul>
                     </li>
-                    <li>
-                        Des outils tels que PageSpeed Insights peuvent fournir des suggestions pour améliorer la performance du site, pouvant conduire à une économie de temps de chargement de 0.8 secondes. 
+                    <li>Des outils tels que PageSpeed Insights peuvent fournir des suggestions pour améliorer la performance du site, pouvant conduire à une économie de temps de chargement de 0.8 secondes. 
                         <ul>
                             <li>Méthodologie: Les tests ont été réalisés en mesurant les temps de chargement avant et après l'application des suggestions d'optimisation fournies par l'outil. Les optimisations proposées incluaient la suppression du code CSS inutilisé et l'optimisation des images.</li>
                         </ul>
                     </li>
-                    <li>
-                        GraphQL permet de récupérer des données spécifiques sans surcharge, résolvant les problèmes associés aux APIs REST traditionnelles qui nécessitent parfois des requêtes importantes.
+                    <li>GraphQL permet de récupérer des données spécifiques sans surcharge, résolvant les problèmes associés aux APIs REST traditionnelles qui nécessitent parfois des requêtes importantes.
                         <ul>
                             <li>Méthodologie: Les tests ont été conduits en comparant la charge sur les serveurs et la consommation d'énergie entre les requêtes GraphQL et REST sur un ensemble de données similaire. L'objectif était d'évaluer comment GraphQL permet des requêtes plus précises, réduisant ainsi la charge sur les serveurs et améliorant l'efficacité énergétique.</li>
                         </ul>

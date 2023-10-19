@@ -13,7 +13,7 @@ function Reference4() {
         <div className="article-page">
             <div className="header-buttons">
                 <button className="back-button" onClick={handleBack}>Retour</button>
-                <a href="https://www.ibm.com/blog/green-coding/" className="site-link-button">Visiter le site</a>
+                <a href="https://www.ibm.com/blog/green-coding/" target="_blank" rel="noopener noreferrer" className="site-link-button">Visiter le site</a>
             </div>
             <h1>Le Green Coding : Vers une Informatique Plus Durable</h1>
             <section id="article-section">
