@@ -50,3 +50,9 @@
     font-size: 18px;
     padding: 15px 30px;
 }
+
+.site-link-author {
+    color: black
+    border: none;
+    cursor: pointer;
+}
