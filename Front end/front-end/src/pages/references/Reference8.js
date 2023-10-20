@@ -19,9 +19,9 @@ function Reference8() {
             <section id="article-section">
                 <h1>0. Auteurs de l'article</h1>
                 <p>L'article est un chapitre du livre "Harnessing Green IT : Principles and Practices" qui regroupe des leçons et des bonne pratiques à faire pour rendre l'Informatique verte. Ce chapitre a été écrit par </p>
-                <a href="https://scholar.google.com/citations?hl=fr&user=v5xSgA0AAAAJ" target="_blank" rel="noopener noreferrer" className="site-link-button">Saurabh Kumar Garg</a>
+                <a href="https://scholar.google.com/citations?hl=fr&user=v5xSgA0AAAAJ" target="_blank" rel="noopener noreferrer" className="site-link-author">Saurabh Kumar Garg</a>
                 <a> étudient en bac technologique et dévelopeur front end et </a>
-                <a href="https://scholar.google.com/citations?hl=fr&user=7xN6JqYAAAAJ" target="_blank" rel="noopener noreferrer" className="site-link-button">Rajkumar Buyya</a>
+                <a href="https://scholar.google.com/citations?hl=fr&user=7xN6JqYAAAAJ" target="_blank" rel="noopener noreferrer" className="site-link-author">Rajkumar Buyya</a>
                 <a> qui fut membre de l'institut des ingénieurs éléctriciens et éléctroniciens en 2015 et qui est maintenant un professeur dans l'université de Melbourne en Australie dans le laboratoire de cloud informatique et de systèmes distribués.</a>
             </section>
             <section id="article-section">
