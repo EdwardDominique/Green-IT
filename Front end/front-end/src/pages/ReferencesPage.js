@@ -7,6 +7,7 @@ import ref4Image from '../pictures/ref4.jpg';
 import ref5Image from '../pictures/ref5.png';
 import ref6Image from '../pictures/ref6.png';
 import ref7Image from '../pictures/ref7.png';
+import ref8Image from '../pictures/ref8.png';
 
 function Reference() {
     const references = [
@@ -51,6 +52,12 @@ function Reference() {
             imgSrc: ref7Image,
             description: "Dans cet article informatif, nous explorons le domaine du Green IT et son impact sur l'efficacité énergétique des langages de programmation. À travers une étude détaillée portant sur 27 langages populaires, nous découvrons ceux qui se distinguent en matière de durabilité. De la méthodologie aux résultats, nous mettons en lumière l'impact environnemental des choix de langage. En fin de compte, nous tirons des conclusions importantes qui éclairent le rôle du Green IT dans l'industrie de la programmation pour un avenir plus respectueux de l'environnement.",
             auteur: 'Bassidiki HAIDARA'
+        },
+        {
+            titre: 'GREEN CLOUD COMPUTING AND ENVIRONMENTAL SUSTAINABILITY',
+            imgSrc: ref8Image,
+            description: "Le cloud informatique est devenue une infrastructure essentielle pour les entreprises, mais sa croissance rapide soulève des préoccupations environnementales. L'article se concentre sur la consommation d'énergie des centres de données, devenue un problème critique en raison des coûts opérationnels élevés et des émissions de carbone importantes. Pour résoudre ces problèmes, l'article explore des solutions pour rendre le cloud informatique plus respectueuse de l'environnement. Il examine les aspects technologiques qui contribuent à la consommation d'énergie et propose des orientations pour la recherche future dans le domaine de le cloud informatique vert.",
+            auteur: 'Flavien GAUTIER'
         },
         
     ];
