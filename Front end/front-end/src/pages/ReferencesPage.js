@@ -6,6 +6,7 @@ import ref3Image from '../pictures/ref3.png';
 import ref4Image from '../pictures/ref4.jpg';
 import ref5Image from '../pictures/ref5.png';
 import ref6Image from '../pictures/ref6.png';
+import ref7Image from '../pictures/ref7.png';
 
 function Reference() {
     const references = [
@@ -44,6 +45,12 @@ function Reference() {
             imgSrc: ref6Image,
             description: "Le Green IT et l'IA sont deux domaines en pleine expansion qui ont un impact significatif sur notre environnement. Bien que l'IA puisse contribuer à l'augmentation des émissions de gaz à effet de serre, elle peut également être utilisée pour aider à la transition écologique. Le concept de Green IA, qui vise à rendre l'IA plus durable, est une initiative prometteuse dans ce sens.",
             auteur: 'Henrique MARTINS'
+        },
+        {
+            titre: 'Efficacité énergétique des langages de programmation',
+            imgSrc: ref7Image,
+            description: "Dans cet article informatif, nous explorons le domaine du Green IT et son impact sur l'efficacité énergétique des langages de programmation. À travers une étude détaillée portant sur 27 langages populaires, nous découvrons ceux qui se distinguent en matière de durabilité. De la méthodologie aux résultats, nous mettons en lumière l'impact environnemental des choix de langage. En fin de compte, nous tirons des conclusions importantes qui éclairent le rôle du Green IT dans l'industrie de la programmation pour un avenir plus respectueux de l'environnement.",
+            auteur: 'Bassidiki HAIDARA'
         },
         
     ];
