@@ -9,6 +9,7 @@ import Reference2 from './pages/references/Reference2';
 import Reference3 from './pages/references/Reference3';
 import Reference4 from './pages/references/Reference4';
 import Reference5 from './pages/references/Reference5';
+import Reference6 from './pages/references/Reference6';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="reference3" element={<Reference3 />} />
           <Route path="reference4" element={<Reference4 />} />
           <Route path="reference5" element={<Reference5 />} />
+          <Route path="reference6" element={<Reference6 />} />
         </Routes>
       </div>
     </Router>

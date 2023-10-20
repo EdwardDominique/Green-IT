@@ -5,6 +5,7 @@ import ref2Image from '../pictures/ref2.png';
 import ref3Image from '../pictures/ref3.png';
 import ref4Image from '../pictures/ref4.jpg';
 import ref5Image from '../pictures/ref5.png';
+import ref6Image from '../pictures/ref6.png';
 
 function Reference() {
     const references = [
@@ -37,6 +38,12 @@ function Reference() {
             imgSrc: ref5Image,
             description: "Le rapport évalue l'impact environnemental du développement logiciel, explore l'efficacité énergétique des langages de programmation, et analyse les attitudes des programmeurs envers la Green IT. Des langages comme C et Rust sont identifiés comme écoénergétiques, et des outils comme PageSpeed Insights et GraphQL sont présentés comme des moyens efficaces d'améliorer l'efficacité énergétique du développement web.",
             auteur: 'Léonard BONNEVILLE'
+        },
+        {
+            titre: 'AI for Green : la branche verte de l’intelligence artificielle',
+            imgSrc: ref6Image,
+            description: "Le Green IT et l'IA sont deux domaines en pleine expansion qui ont un impact significatif sur notre environnement. Bien que l'IA puisse contribuer à l'augmentation des émissions de gaz à effet de serre, elle peut également être utilisée pour aider à la transition écologique. Le concept de Green IA, qui vise à rendre l'IA plus durable, est une initiative prometteuse dans ce sens.",
+            auteur: 'Henrique MARTINS'
         },
         
     ];
