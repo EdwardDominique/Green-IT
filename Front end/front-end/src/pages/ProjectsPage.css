@@ -27,41 +27,14 @@ h1 {
     padding: 20px;
 }
 
-/* Chaque case de projet */
-.case-projet {
-    border: 1px solid #ccc;
-    padding: 16px;
-    box-sizing: border-box;
-    background-color: #fff;
-    transition: transform 0.3s ease;
-}
-
-.case-projet:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Image de chaque projet */
-.case-projet img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-}
-
-/* Nom de l'étudiant */
-.case-projet h3 {
-    margin: 10px 0;
-    color: #333;
-}
-
-/* Lien du projet */
-.case-projet a {
+.link a {
+    color: white; 
+    background-color: #5B855F;
+    padding: 8px 12px;
+    border-radius: 15px; 
     text-decoration: none;
-    color: #007BFF;
-    font-weight: bold;
 }
 
-.case-projet a:hover {
-    text-decoration: underline;
+.link a:hover {
+    background-color: #4A704B;
 }

@@ -61,7 +61,7 @@
     background-color: #4CAF50;
     color: #fff;
     border-radius: 4px;
-    align-items: start; /* Aligne les éléments en haut */
+    align-items: flex-start; /* Aligne les éléments en haut */
     justify-content: flex-start;
 }
 
