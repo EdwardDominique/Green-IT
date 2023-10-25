@@ -13,7 +13,7 @@ function Reference8() {
         <div className="article-page">
             <div className="header-buttons">
                 <button className="back-button" onClick={handleBack}>Retour</button>
-                <a href="https://www.researchgate.net/publication/327281286_GREEN_CLOUD_COMPUTING_AND_ENVIRONMENTAL_SUSTAINABILITY" target="_blank" rel="noopener noreferrer" className="site-link-button">Visiter le site</a>
+                <a href="https://scholar.google.com/citations?view_op=view_citation&hl=fr&user=v5xSgA0AAAAJ&citation_for_view=v5xSgA0AAAAJ:zuN7wi50mysC" target="_blank" rel="noopener noreferrer" className="site-link-button">Visiter le site</a>
             </div>
             <h1>CLOUD INFORMATIQUE VERT et DURABILITÉ ENVIRONNEMENTALE</h1>
             <section id="article-section">
