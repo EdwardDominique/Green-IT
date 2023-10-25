@@ -14,6 +14,7 @@ import ref10Image from '../pictures/ref10.png';
 import ref11Image from '../pictures/ref11.png';
 import ref12Image from '../pictures/ref12.png';
 import ref13Image from '../pictures/ref13.png';
+import ref15Image from '../pictures/ref15.png';
 
 function Reference() {
     const references = [
@@ -94,6 +95,12 @@ function Reference() {
             imgSrc: ref13Image,
             description: "Cet article parle de l'initiative de Telecom SudParis, une école d'ingénieurs en France, pour former les ingénieurs du futur spécialisés dans les technologies vertes. L'école a lancé un nouveau programme de formation appelé 'Green IT' qui vise à former des étudiants à la conception et à la mise en œuvre de solutions informatiques durables pour réduire l'impact environnemental des technologies de l'information. Le programme comprend des cours sur la conception de centres de données économes en énergie, la gestion de l'énergie et la réduction de l'empreinte carbone des infrastructures informatiques. Telecom SudParis espère ainsi répondre à la demande croissante de professionnels qualifiés dans le domaine de l'informatique verte.",
             auteur: 'Henrique DONG'
+        },
+        {
+            titre: 'Green IT : écoresponsabilité des APIs encouragée par le nouveau label API Green Score',
+            imgSrc: ref15Image,
+            description: "Le collectif API Thinking a introduit le label API Green Score pour promouvoir des APIs écoresponsables dans un contexte de prolifération numérique. Les APIs, malgré leur utilité, ont un impact environnemental significatif, contribuant à la pollution numérique et aux émissions de gaz à effet de serre. Ce label encourage les développeurs à considérer l'impact environnemental de leurs interfaces, en attribuant un score vert aux APIs respectueuses de l'environnement. Pour obtenir la certification, les APIs doivent répondre à des critères répartis en 7 domaines, incluant la gestion du cycle de vie et l'évaluation de la consommation d'énergie. En favorisant la durabilité des APIs, le label API Green Score constitue une initiative importante pour l'adoption de pratiques numériquement responsables.",
+            auteur: 'Bassidiki HAIDARA'
         },
         
     ];
