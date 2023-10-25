@@ -12,6 +12,7 @@ import ref9Image from '../pictures/ref9.png';
 import ref10Image from '../pictures/ref10.png';
 import ref11Image from '../pictures/ref11.png';
 import ref12Image from '../pictures/ref12.png';
+import ref13Image from '../pictures/ref13.png';
 
 function Reference() {
     const references = [
@@ -86,6 +87,12 @@ function Reference() {
             imgSrc: ref12Image,
             description: "Les éditeurs de logiciels ont la possibilité de réduire les émissions de carbone des applications en réévaluant les approches traditionnelles et en intégrant dès le départ la notion de durabilité.",
             auteur: 'Maxime MOREL'
+        },
+        {
+            titre: 'Telecom SudParis lance un programme de formation pour former les ingénieurs du Green IT',
+            imgSrc: ref13Image,
+            description: "Cet article parle de l'initiative de Telecom SudParis, une école d'ingénieurs en France, pour former les ingénieurs du futur spécialisés dans les technologies vertes. L'école a lancé un nouveau programme de formation appelé 'Green IT' qui vise à former des étudiants à la conception et à la mise en œuvre de solutions informatiques durables pour réduire l'impact environnemental des technologies de l'information. Le programme comprend des cours sur la conception de centres de données économes en énergie, la gestion de l'énergie et la réduction de l'empreinte carbone des infrastructures informatiques. Telecom SudParis espère ainsi répondre à la demande croissante de professionnels qualifiés dans le domaine de l'informatique verte.",
+            auteur: 'Henrique DONG'
         },
         
     ];
