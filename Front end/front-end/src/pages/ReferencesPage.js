@@ -1,6 +1,7 @@
 import React from 'react';
 import './ReferencesPage.css';
 import { Link } from 'react-router-dom';
+import ref1Image from '../pictures/ref1.png';
 import ref2Image from '../pictures/ref2.png';
 import ref3Image from '../pictures/ref3.png';
 import ref4Image from '../pictures/ref4.jpg';
@@ -17,10 +18,10 @@ import ref13Image from '../pictures/ref13.png';
 function Reference() {
     const references = [
         {
-            titre: 'ref1',
-            imgSrc: 'image.jpg',
-            description: 'une description',
-            auteur: ''
+            titre: 'Le Green IT, une démarche pleine d’ambitions et d’opportunités pour les entreprises',
+            imgSrc: ref1Image,
+            description: 'Le Green IT est une démarche visant à réduire l’impact environnemental du numérique, qui représente une part significative des émissions mondiales de gaz à effet de serre. Cette démarche englobe divers aspects, allant de la réduction de la consommation d’énergie des infrastructures numériques à l’éco-conception des produits et services numériques. En plus de ses bénéfices environnementaux, le Green IT offre également de nombreuses opportunités pour les entreprises en termes d’efficacité et d’innovation.',
+            auteur: 'Henrique MARTINS'
         },
         {
             titre: 'Analyse Énergétique et Environnementale des Navigateurs Web Android en 2021',
