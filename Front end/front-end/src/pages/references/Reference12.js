@@ -13,9 +13,9 @@ function Reference1() {
         <div className="article-page">
             <div className="header-buttons">
                 <button className="back-button" onClick={handleBack}>Retour</button>
-                <a href="/#" target="_blank" rel="noopener noreferrer" className="site-link-button">Visiter le site</a>
+                <a href="https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/tech-forward/making-software-and-data-architectures-more-sustainable" target="_blank" rel="noopener noreferrer" className="site-link-button">Visiter le site</a>
             </div>
-            <h1>Ceci est la ref 1</h1>
+            <h1>Making software and data architectures more sustainable</h1>
             <section id="article-section">
                 <h1>section 1</h1>
                 <p>du texte</p>

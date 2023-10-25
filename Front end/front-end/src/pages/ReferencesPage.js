@@ -8,6 +8,10 @@ import ref5Image from '../pictures/ref5.png';
 import ref6Image from '../pictures/ref6.png';
 import ref7Image from '../pictures/ref7.png';
 import ref8Image from '../pictures/ref8.png';
+import ref9Image from '../pictures/ref9.png';
+import ref10Image from '../pictures/ref10.png';
+import ref11Image from '../pictures/ref11.png';
+import ref12Image from '../pictures/ref12.png';
 
 function Reference() {
     const references = [
@@ -58,6 +62,30 @@ function Reference() {
             imgSrc: ref8Image,
             description: "Le cloud informatique est devenue une infrastructure essentielle pour les entreprises, mais sa croissance rapide soulève des préoccupations environnementales. L'article se concentre sur la consommation d'énergie des centres de données, devenue un problème critique en raison des coûts opérationnels élevés et des émissions de carbone importantes. Pour résoudre ces problèmes, l'article explore des solutions pour rendre le cloud informatique plus respectueuse de l'environnement. Il examine les aspects technologiques qui contribuent à la consommation d'énergie et propose des orientations pour la recherche future dans le domaine de le cloud informatique vert.",
             auteur: 'Flavien GAUTIER'
+        },
+        {
+            titre: 'IBM Cloud Carbon Calculator Aims to Aid Enterprise Sustainability Efforts',
+            imgSrc: ref9Image,
+            description: "IBM is using its AI expertise to improve sustainability initiatives by helping enterprises better understand the impact of cloud computing on the environment.",
+            auteur: 'Maxime MOREL'
+        },
+        {
+            titre: 'A sustainable and secure load management model for green cloud data centres',
+            imgSrc: ref10Image,
+            description: "Un modèle SaS-LM propose une gestion de charge durable et sécurisée pour les centres de données cloud. Il utilise l'optimisation DPBHO pour réduire les émissions de carbone, la consommation d'énergie et améliorer l'utilisation des ressources.",
+            auteur: 'Maxime MOREL'
+        },
+        {
+            titre: 'Resource-aware Programming in a High-level Language',
+            imgSrc: ref11Image,
+            description: "Resource-aware programming in high-level languages on MPSoCs is feasible with manageable effort and improves performance",
+            auteur: 'Maxime MOREL'
+        },
+        {
+            titre: 'Making software and data architectures more sustainable',
+            imgSrc: ref12Image,
+            description: "Software companies have the potential to reduce carbon emissions from applications by reassessing traditional approaches and incorporating a sustainability lens at the outset.",
+            auteur: 'Maxime MOREL'
         },
         
     ];
