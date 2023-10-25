@@ -66,7 +66,7 @@ function Reference() {
         {
             titre: 'IBM Cloud Carbon Calculator Aims to Aid Enterprise Sustainability Efforts',
             imgSrc: ref9Image,
-            description: "IBM is using its AI expertise to improve sustainability initiatives by helping enterprises better understand the impact of cloud computing on the environment.",
+            description: "IBM utilise son expertise en matière d'IA pour améliorer les initiatives de développement durable en aidant les entreprises à mieux comprendre l'impact de l'informatique dématérialisée sur l'environnement.",
             auteur: 'Maxime MOREL'
         },
         {
@@ -78,13 +78,13 @@ function Reference() {
         {
             titre: 'Resource-aware Programming in a High-level Language',
             imgSrc: ref11Image,
-            description: "Resource-aware programming in high-level languages on MPSoCs is feasible with manageable effort and improves performance",
+            description: "La programmation tenant compte des ressources dans les langages de haut niveau sur les MPSoC est réalisable avec un effort gérable et améliore les performances.",
             auteur: 'Maxime MOREL'
         },
         {
             titre: 'Making software and data architectures more sustainable',
             imgSrc: ref12Image,
-            description: "Software companies have the potential to reduce carbon emissions from applications by reassessing traditional approaches and incorporating a sustainability lens at the outset.",
+            description: "Les éditeurs de logiciels ont la possibilité de réduire les émissions de carbone des applications en réévaluant les approches traditionnelles et en intégrant dès le départ la notion de durabilité.",
             auteur: 'Maxime MOREL'
         },
         
