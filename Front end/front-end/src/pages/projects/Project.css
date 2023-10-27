@@ -13,3 +13,27 @@
     font-size: 18px;
     padding: 15px 30px;
 }
+
+#sub-section {
+    background-color: #B1B695;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.collab {
+    display: block;
+    text-align: right;
+    font-style: italic;
+}
+
+.collab span {
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
