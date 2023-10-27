@@ -92,7 +92,7 @@ function AurelienMANCEAU() {
                 </section>
                 <section id="sub-section">
                     <h2>Présentation du Projet</h2>
-                    <p>Le projet vise à comparer la consommation énergétique de deux scripts Python simples; l'un utilise l'importation de fichiers pour effectuer une opération arithmétique de base (3 + 2), tandis que l'autre effectue la même opération sans importation de fichiers. Pour obtenir des résultats probants, chaque script sera exécuté 10,000,000 fois. L'analyse de la consommation d'énergie est facilitée par l'utilisation de la bibliothèque pyRAPL, un outil efficace pour mesurer la consommation d'énergie des scripts Python.</p>
+                    <p>Le projet vise à comparer la consommation énergétique de deux fonction dans un scripts Python simples; l'une utilise l'importation de fichiers pour effectuer une opération arithmétique de base (3 + 2), tandis que l'autre effectue la même opération sans importation de fichiers. Pour obtenir des résultats probants, chaque fonction sera exécuté 10,000,000 fois. L'analyse de la consommation d'énergie est facilitée par l'utilisation de la bibliothèque pyRAPL, un outil efficace pour mesurer la consommation d'énergie des fonctions en Python.</p>
                 </section>
                 <section id="sub-section">
                     <h2>Technologie Utilisée</h2>
@@ -136,7 +136,7 @@ function AurelienMANCEAU() {
                 </section>
                 <section id="sub-section">
                     <h2>Méthodologie</h2>
-                    <p>Un script Python unique a été créé, contenant les deux scénarios de test. Le script, nommé energy_test.py, exécute d'abord le scénario avec importation de fichiers, suivi du scénario sans importation, chaque scénario étant exécuté 10,000,000 fois. Le script energy_test.py est exécuté 20 fois, et la bibliothèque pyRAPL est utilisée pour mesurer et enregistrer la consommation d'énergie de chaque scénario lors de chaque exécution.</p>
+                    <p>Un script Python unique a été créé, contenant les deux fonction de test. Le script, nommé energy_test.py, exécute d'abord la fonction avec importation de fichiers, suivi de celle sans importation, chaque fonction étant exécuté 10,000,000 fois. Le script energy_test.py est exécuté 20 fois, et la bibliothèque pyRAPL est utilisée pour mesurer et enregistrer la consommation d'énergie de chaque fonction lors de chaque exécution.</p>
                     <figure>
                         <CodeBlock codeString = {energy_test}/>
                         <figcaption>energy_test.py</figcaption>

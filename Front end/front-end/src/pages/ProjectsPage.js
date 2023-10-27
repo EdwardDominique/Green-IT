@@ -26,7 +26,7 @@ function ProjectsPage() {
         { img: BassidikiH, nom: 'Bassidiki HAIDARA', titre: 'Projet 7', desc: 'Résumé du projet' },
         { img: MaximeM, nom: 'Maxime MOREL', titre: 'Projet 8', desc: 'Résumé du projet' },
         { img: HenriqueM, nom: 'Henrique MARTINS', titre: 'Projet 9', desc: 'Résumé du projet' },
-        { img: AurelienM, nom: 'Aurelien MANCEAU', titre: 'Projet 10', desc: 'Résumé du projet' },
+        { img: AurelienM, nom: 'Aurelien MANCEAU', titre: "Conception d'un Site Web avec React.js et Analyse de la Consommation Énergétique de l'import de fichier en Python", desc: "Ce projet vise à étudier l'impact de l'importation de fichiers dans les scripts Python sur la consommation d'énergie. Deux fonctions dans un script Python ont été testées, l'une avec importation de fichiers et l'autre sans, chacune exécutée 10,000,000 fois, en utilisant la bibliothèque pyRAPL pour mesurer la consommation d'énergie." },
     ];
 
     return (
