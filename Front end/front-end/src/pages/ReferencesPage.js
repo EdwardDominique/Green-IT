@@ -17,6 +17,7 @@ import ref13Image from '../pictures/ref13.png';
 import ref15Image from '../pictures/ref15.png';
 import ref14Image from '../pictures/ref14.png';
 import ref16Image from '../pictures/ref16.png';
+import ref17Image from '../pictures/ref17.PNG';
 
 function Reference() {
     const references = [
@@ -116,7 +117,13 @@ function Reference() {
             description: "Cet article traite de l'importance de la durabilité environnementale et du rôle des technologies de l'information (IT) dans cet objectif. Il souligne la nécessité de réduire l'utilisation des combustibles fossiles et de développer des sources d'énergie renouvelable pour parvenir à une société à faible émission de carbone.",
             auteur: 'Loic BOURNONVILLE'
         },
-        
+        {
+            titre: 'Green Planning Systems for Self-Consumption of Renewable Energy',
+            imgSrc: ref17Image,
+            description: "L'article aborde le réchauffement climatique mondial causé par les activités humaines et met en avant l'importance de réduire les émissions de CO2. Il explore également le concept de Green Planning qui propose des approches informatiques pour améliorer l'environnement, et met en évidence le rôle de l'Internet des objets (IoT) dans la gestion de l'énergie et la réduction des émissions de CO2.",
+            auteur: 'Edouard DOMINIQUE'
+        },
+
     ];
 
     return (
