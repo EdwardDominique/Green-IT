@@ -21,7 +21,7 @@ function ProjectsPage() {
         { img: LoicB, nom: 'Loic BOURNONVILLE', titre: 'Projet 2', desc: 'Résumé du projet' },
         { img: EdouardD, nom: 'Edouard DOMINIQUE', titre: 'Projet 3', desc: 'Résumé du projet' },
         { img: HenriqueD, nom: 'Henrique DONG', titre: 'Projet 4', desc: 'Résumé du projet' },
-        { img: FlavienG, nom: 'Flavien GAUTIER', titre: 'Projet 5', desc: 'Résumé du projet' },
+        { img: FlavienG, nom: 'Flavien GAUTIER', titre: 'Analyse de Consommation d\'énergie et de temps entre 2 scripts de conversion en python : décimal-binaire et décimal-hexadécimal', desc: 'Ce projet à pour objectif de comparer les niveaux de consommation d\'énergie entre les deux méthodes de conversion (binaire et hexadécimale) et de déterminer si l\'affichage des conversions a un impact significatif sur la consommation d\'énergie. Pour cela, ces deux méthodes seront exécuté 100,000 fois, en utilisant la bibliothèque pyJoules, qui permettra de mesurer précisément la consommation d\'énergie des scripts Python.' },
         { img: LeonardB, nom: 'Leonard BONNEVILLE', titre: 'Projet 6', desc: 'Résumé du projet' },
         { img: BassidikiH, nom: 'Bassidiki HAIDARA', titre: 'Projet 7', desc: 'Résumé du projet' },
         { img: MaximeM, nom: 'Maxime MOREL', titre: 'Projet 8', desc: 'Résumé du projet' },
