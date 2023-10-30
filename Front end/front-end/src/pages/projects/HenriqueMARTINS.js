@@ -76,26 +76,14 @@ function HenriqueMARTINS() {
             <section id="main-section">
                 <h1>Création de la maquette et du Logo</h1>
                 <section id="sub-section">
-                    <p>Dans le monde digital actuel, créer un site web efficace et esthétiquement plaisant est devenu une nécessité. React.js, étant une bibliothèque JavaScript populaire, était mon choix pour le développement du site. La facilité avec laquelle React permet de créer et de gérer des composants a rendu le processus de développement à la fois structuré et agréable. Dans cet article, je vais partager mon expérience de la création d'un site web avec React.js, en mettant l'accent sur la structuration des pages, le routage, et la stylisation.</p>
+                    <h2>Maquette du site</h2>
+                    <p>La maquette du site a été réalisé à l'aide de Framer, un logiciel de maquettage de site internet. Il contient une page home avec l'explication de notre projet, une page projet avec tous les projets de chaque participants et une page référence pour toutes les références trouvés. <a href="https://framer.com/projects/Eco-Code-School--YbQ0lB8eUtMdHulnMj6w-6xOHa">Lien de la maquette</a></p>
                 </section>
                 <section id="sub-section">
-                    <h2>Initialisation du Projet</h2>
-                    <p>Tout a commencé avec l'initialisation d'un nouveau projet React à l'aide de Create React App. Cet outil a préparé le terrain, en fournissant un environnement de développement bien configuré.</p>
-                </section>
-                <section id="sub-section">
-                    <h2>Structuration des Pages et Routage</h2>
+                    <h2>Logo</h2>
                     <section>
-                        <h3>Composants de Page</h3>
-                        <p>Pour notre site, chaque page a été créée comme un composant React distinct. J'ai organisé ces composants dans un dossier pages, rendant la structure du projet claire et maintenable.</p>
+                        <p>Le logo a été créé à l'aide de Canvas. L'éclair représente l'énergie et les feuilles vertes l'écologie. Les feuilles qui poussent sur l'éclair représentent la consommation écologique de notre projet</p>
                     </section>
-                    <section>
-                        <h3>Gestion du Routage</h3>
-                        <p>La définition des routes était la prochaine étape cruciale. Nous avons utilisé React Router pour associer les URL aux composants de page correspondants, ce qui a facilité la navigation entre les différentes sections du site.</p>
-                    </section>
-                </section>
-                <section id="sub-section">
-                    <h2>Stylisation</h2>
-                    <p>La stylisation est une partie essentielle de tout projet web. Pour notre site, nous avons créé des fichiers CSS séparés pour chaque composant de page et les avons importés pour appliquer le style. Cette approche a rendu la gestion des styles assez simple et organisée.</p>
                 </section>
             </section>
             <section id="main-section">
