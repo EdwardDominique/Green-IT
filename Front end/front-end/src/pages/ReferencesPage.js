@@ -19,6 +19,7 @@ import ref14Image from '../pictures/ref14.png';
 import ref16Image from '../pictures/ref16.png';
 import ref17Image from '../pictures/ref17.PNG';
 import ref18Image from '../pictures/ref18.png';
+import ref19Image from '../pictures/ref19.PNG';
 
 function Reference() {
     const references = [
@@ -129,6 +130,12 @@ function Reference() {
             imgSrc: ref18Image,
             description: "Cette étude environnementale analyse l'empreinte écologique du numérique mondial en se basant sur différents indicateurs environnementaux. L'étude montre que la fabrication des équipements des utilisateurs est la principale source d'impact environnemental, suivie par la production d'électricité. Elle propose également des solutions pour réduire l'impact environnemental du numérique.",
             auteur: 'Henrique DONG'
+        },
+        {
+            titre: 'Green Communications and Networking Systems - A Challenge to Current Communications and Protocols',
+            imgSrc: ref19Image,
+            description: "Cet article met en lumière l'importance des Communications Vertes pour réduire la consommation d'énergie dans l'industrie des TIC, en se concentrant sur les solutions pour améliorer l'efficacité énergétique des réseaux de communication. Il encourage également une approche holistique pour un avenir plus durable",
+            auteur: 'Edouard DOMINIQUE'
         },
 
     ];
