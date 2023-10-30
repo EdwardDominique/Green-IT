@@ -114,11 +114,11 @@ function FlavienGAUTIER() {
                     <span>En collaboration avec Gaspard CHARLES</span>
                 </div>
                 <section id="sub-section">
-                    <p>Dans le monde de la programmation, il existe une multitude de façons d'élaborer des algorithmes, chacune possédant ses propres avantages et inconvénients. L'un des éléments les plus cruciales est l'optimisation, car même à l'intérieur d'un même langage de programmation, plusieurs approches peuvent être employées pour accomplir une même tâche. Il est évident que le choix de la méthode d'écriture peut influencer de manière significative l'efficacité et les performances d'un code. Notre projet s'inscrit dans cette démarche en se penchant sur l'impact des différentes conversion de nombre dans des scripts Python sur la consommation d'énergie.</p>
+                    <p>Dans le monde de la programmation, il existe une multitude de façons d'élaborer des algorithmes, chacune possédant ses propres avantages et inconvénients. l'un des éléments les plus cruciaux est l'optimisation, car même à l'intérieur d'un même langage de programmation, plusieurs approches peuvent être employées pour accomplir une même tâche. Il est évident que le choix de la méthode d'écriture peut influencer de manière significative l'efficacité et les performances d'un code. Notre projet s'inscrit dans cette démarche en se penchant sur l'impact des différentes conversion de nombre dans des scripts Python sur la consommation d'énergie.</p>
                 </section>
                 <section id="sub-section">
                     <h2>Présentation du Projet</h2>
-                    <p>Ce projet vise comparer la consomation énergétique pour des conversions de nombre. Pour cela on utilise 2 scripts python; l'un portant sur la conversion décimal vers binaire et l'autre sur la conversion décimal vers hexadécimal. Pour obtenir des résultats à analyser et exploitables, chaque script sera excécuté 100,000 fois avec et sans l'affichage des conversions (print("Pour le nombre décimal " + str(i)....). L'analyse de consomation d'énergie se fera à l'aide de la bibliothèque pyJoules qui permettra de mesurer la consomation d'énergie des scripts python.</p>
+                    <p>Ce projet vise à comparer la consomation énergétique pour des conversions de nombre. Pour cela on utilise 2 scripts python; l'un portant sur la conversion décimale vers binaire et l'autre sur la conversion décimale vers hexadécimal. Pour obtenir des résultats à analyser et exploitables, chaque script sera excécuté 100,000 fois avec et sans l'affichage des conversions (print("Pour le nombre décimal " + str(i)....). L'analyse de consomation d'énergie se fera à l'aide de la bibliothèque pyJoules qui permettra de mesurer la consomation d'énergie des scripts python.</p>
                 </section>
                 <section id="sub-section">
                     <h2>Technologie Utilisée</h2>
@@ -168,7 +168,7 @@ function FlavienGAUTIER() {
                 </section>
                 <section id="sub-section">
                     <h2>Méthodologie</h2>
-                    <p>Deux scripts Python ont été créés, contenant chacune une fonction de test. Le script, nommé Conversion_dec_bin.py, exécute la conversion d'un nombre décimal en un bombre binaire. Le script, nommé Conversion_dec_hex.py, exécute quant à lui la conversion d'un nombre décimal en un bombre hexadécimal. Chaque scripts sont exécutés 100,000 fois. Les scripts ont été exécutés 2 fois chacun avec la ligne d'affichage à l'intérieur de la boucle "print("Pour le nombre décimal " + str(i)...." commenté et non commenté, et la bibliothèque pyJoules est utilisée pour mesurer et enregistrer la consommation d'énergie de chaque script lors de leur exécution.</p>
+                    <p>Deux scripts Python ont été créés, contenant chacune une fonction de test. Le script, nommé Conversion_dec_bin.py, exécute la conversion d'un nombre décimal en un nombre binaire. Le script, nommé Conversion_dec_hex.py, exécute quant à lui la conversion d'un nombre décimal en un nombre hexadécimal. Chaque scripts sont exécutés 100,000 fois. Les scripts ont été exécutés 2 fois chacun avec la ligne d'affichage à l'intérieur de la boucle "print("Pour le nombre décimal " + str(i)...." commenté et non commenté, et la bibliothèque pyJoules est utilisée pour mesurer et enregistrer la consommation d'énergie de chaque script lors de leur exécution.</p>
                     <figure>
                         <CodeBlock codeString = {Conversion_dec_bin}/>
                         <figcaption>Conversion_dec_bin.py</figcaption>
@@ -192,7 +192,7 @@ function FlavienGAUTIER() {
                         <li>
                             <h3>Temps d'exécution</h3>
                             <p>Surprenament, c'est le script de conversion décimal-binaire qui prend le plus de temps pour s'exécuter. On pourrait penser que le deuxième script prendrait plus de temps à cause de tous ces 'if - elif' qui remplace le 'switch case' mais même en l'exécutant avec l'affichage, il ne prend pas autant de temps que le premier script.</p>
-                            <p>Par contre, dans les deux script, l'affichage des nombres converties double presque le temps d'exécution des scripts.</p>
+                            <p>Par contre, dans les deux script, l'affichage des nombres convertis double presque le temps d'exécution des scripts.</p>
                         </li>
                         <li>
                             <h3>Consommation d'énergie</h3>
