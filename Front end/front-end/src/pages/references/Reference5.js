@@ -17,6 +17,10 @@ function Reference5() {
             </div>
             <h1>Impact du Green IT (Technologies de l'Information Vertes) dans le Développement Web</h1>
             <section id="article-section">
+                <h1>0. Auteurs de l'article</h1>
+                <p>Sofia Herelius, dans sa thèse soumise à l'Institut de Technologie de Blekinge, explore le codage vert et son impact sur le changement climatique. À travers une méthodologie impliquant un sondage auprès des programmeurs et la collecte de données, elle identifie des techniques de codage éco-énergétiques, tout en révélant une reconnaissance modérée du "codage vert" parmi les programmeurs. L'étude met également en lumière l'importance d'optimiser l'efficacité énergétique dans le développement de logiciels pour réduire l'empreinte carbone des applications.</p>
+            </section>
+            <section id="article-section">
                 <h1>1. Introduction :</h1>
                 <p>La nécessité du Green IT a été mise en avant avec la montée des préoccupations environnementales. Par exemple, la création de pages web plus légères a été réalisée en réduisant la taille des images et en éliminant le code CSS redondant, contribuant ainsi à réduire les émissions et atténuer l'impact du changement climatique.</p>
             </section>

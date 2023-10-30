@@ -22,7 +22,7 @@ function ProjectsPage() {
         { img: EdouardD, nom: 'Edouard DOMINIQUE', titre: 'Projet 3', desc: 'Résumé du projet' },
         { img: HenriqueD, nom: 'Henrique DONG', titre: 'Projet 4', desc: 'Résumé du projet' },
         { img: FlavienG, nom: 'Flavien GAUTIER', titre: 'Analyse de Consommation d\'énergie et de temps entre 2 scripts de conversion en python : décimal-binaire et décimal-hexadécimal', desc: 'Ce projet à pour objectif de comparer les niveaux de consommation d\'énergie entre les deux méthodes de conversion (binaire et hexadécimale) et de déterminer si l\'affichage des conversions a un impact significatif sur la consommation d\'énergie. Pour cela, ces deux méthodes seront exécuté 100,000 fois, en utilisant la bibliothèque pyJoules, qui permettra de mesurer précisément la consommation d\'énergie des scripts Python.' },
-        { img: LeonardB, nom: 'Leonard BONNEVILLE', titre: 'Projet 6', desc: 'Résumé du projet' },
+        { img: LeonardB, nom: 'Leonard BONNEVILLE', titre: 'Mise en place Site Web avec React.js et Comparaison de différentes fonctions, analyse du temps d’execution, de la consommation en Python: Un pas de plus vers le Green IT', desc: 'Ce projet a pour objectif de comparer le temps d’exécution et la consommation de différentes fonctions très utilisé en code. Je compare les boucles While/For, l’incrémentation, la récursivité ainsi que Select Case/if. Le tout en python via les librairie pyRAPL et pyJoules.' },
         { img: BassidikiH, nom: 'Bassidiki HAIDARA', titre: 'Projet 7', desc: 'Résumé du projet' },
         { img: MaximeM, nom: 'Maxime MOREL', titre: 'Projet 8', desc: 'Résumé du projet' },
         { img: HenriqueM, nom: 'Henrique MARTINS', titre: 'Projet 9', desc: 'Résumé du projet' },

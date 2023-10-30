@@ -17,6 +17,10 @@ function Reference3() {
             </div>
             <h1>Évaluation des Technologies Blockchain pour la Gestion des Transactions et des Actifs en Utilisant les Principes de Green IT</h1>
             <section id="article-section">
+                <h1>0. Auteurs de l'article</h1>
+                <p>L'article, co-rédigé par Luca Ardito et Maurizio Morisio, explore la Green IT, visant à optimiser l'efficacité énergétique des systèmes IT. Il présente une taxonomie pour organiser les concepts liés à l'énergie et l'IT, propose des métriques pour caractériser la consommation d'énergie, et offre des lignes directrices pour développer des logiciels écoénergétiques. Ardito, doctorant à Politecnico di Torino, et Morisio, professeur à la même institution, apportent leur expertise en ingénierie logicielle pour éclairer les tendances actuelles et suggérer des pistes pour des recherches futures dans ce domaine en plein essor.</p>
+            </section>
+            <section id="article-section">
                 <h1>1. Technologie Utilisée :</h1>
                 <p>La technologie Blockchain a été utilisée, exploitant un réseau de 100 nœuds. La plateforme Ethereum a servi de base avec un taux de hachage moyen de 150 TH/s.</p>
             </section>
