@@ -25,7 +25,7 @@ function ProjectsPage() {
         { img: LeonardB, nom: 'Leonard BONNEVILLE', titre: 'Mise en place Site Web avec React.js et Comparaison de différentes fonctions, analyse du temps d’execution, de la consommation en Python: Un pas de plus vers le Green IT', desc: 'Ce projet a pour objectif de comparer le temps d’exécution et la consommation de différentes fonctions très utilisé en code. Je compare les boucles While/For, l’incrémentation, la récursivité ainsi que Select Case/if. Le tout en python via les librairie pyRAPL et pyJoules.' },
         { img: BassidikiH, nom: 'Bassidiki HAIDARA', titre: 'Projet 7', desc: 'Résumé du projet' },
         { img: MaximeM, nom: 'Maxime MOREL', titre: 'Projet 8', desc: 'Résumé du projet' },
-        { img: HenriqueM, nom: 'Henrique MARTINS', titre: 'Projet 9', desc: 'Résumé du projet' },
+        { img: HenriqueM, nom: 'Henrique MARTINS', titre: 'Évaluation de la Consommation Énergétique de Différentes Méthodes de Tri en Python', desc: "Le projet a exploré l'impact énergétique de trois algorithmes de tri en Python (Sélection, Insertion et Quicksort) dans le contexte du Green IT. " },
         { img: AurelienM, nom: 'Aurelien MANCEAU', titre: "Conception d'un Site Web avec React.js et Analyse de la Consommation Énergétique de l'import de fichier en Python", desc: "Ce projet vise à étudier l'impact de l'importation de fichiers dans les scripts Python sur la consommation d'énergie. Deux fonctions dans un script Python ont été testées, l'une avec importation de fichiers et l'autre sans, chacune exécutée 10,000,000 fois, en utilisant la bibliothèque pyRAPL pour mesurer la consommation d'énergie." },
     ];
 

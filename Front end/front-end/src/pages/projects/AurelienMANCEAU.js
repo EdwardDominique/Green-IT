@@ -153,7 +153,7 @@ function AurelienMANCEAU() {
                 <section id="sub-section">
                     <h2>Résultats</h2>
                     <figure>
-                        <img src={fig1} alt="resultat" style={{ transform: 'scale(0.75)', borderRadius: '25px' }}/>
+                        <img class="img" src={fig1} alt="resultat" style={{ transform: 'scale(0.6)', borderRadius: '25px' }}/>
                         <figcaption>Analyse Comparative de Performance et Consommation : Import vs Basic (20 Exécutions)</figcaption>
                     </figure>
                     <ul>

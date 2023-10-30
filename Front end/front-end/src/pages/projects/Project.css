@@ -37,3 +37,7 @@ figcaption {
     font-style: italic;
     text-align: center;
 }
+
+.img{
+    margin-left: -450px;
+}

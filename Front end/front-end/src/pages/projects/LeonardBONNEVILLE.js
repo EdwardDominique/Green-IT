@@ -212,7 +212,7 @@ function LeonardBONNEVILLE() {
                         <li>la charte graphique des couleurs</li>
                         <li>l'image de fond du site</li>
                         <li>la page projet</li>
-                        <li>ainsi que d'autres point vu en commun avec Aurélien MANCEAUX</li>
+                        <li>ainsi que d'autres point vu en commun avec Aurélien MANCEAU</li>
                     </ul>
                 </section>
             </section>
