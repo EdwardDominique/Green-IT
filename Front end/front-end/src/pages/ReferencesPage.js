@@ -18,6 +18,7 @@ import ref15Image from '../pictures/ref15.png';
 import ref14Image from '../pictures/ref14.png';
 import ref16Image from '../pictures/ref16.png';
 import ref17Image from '../pictures/ref17.PNG';
+import ref18Image from '../pictures/ref18.png';
 
 function Reference() {
     const references = [
@@ -122,6 +123,12 @@ function Reference() {
             imgSrc: ref17Image,
             description: "L'article aborde le réchauffement climatique mondial causé par les activités humaines et met en avant l'importance de réduire les émissions de CO2. Il explore également le concept de Green Planning qui propose des approches informatiques pour améliorer l'environnement, et met en évidence le rôle de l'Internet des objets (IoT) dans la gestion de l'énergie et la réduction des émissions de CO2.",
             auteur: 'Edouard DOMINIQUE'
+        },
+        {
+            titre: 'Empreinte environnementale du numérique mondial',
+            imgSrc: ref18Image,
+            description: "Cette étude environnementale analyse l'empreinte écologique du numérique mondial en se basant sur différents indicateurs environnementaux. L'étude montre que la fabrication des équipements des utilisateurs est la principale source d'impact environnemental, suivie par la production d'électricité. Elle propose également des solutions pour réduire l'impact environnemental du numérique.",
+            auteur: 'Henrique DONG'
         },
 
     ];

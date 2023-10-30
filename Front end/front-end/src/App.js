@@ -21,6 +21,7 @@ import Reference15 from './pages/references/Reference15';
 import Reference14 from './pages/references/Reference14';
 import Reference16 from './pages/references/Reference16';
 import Reference17 from './pages/references/Reference17';
+import Reference18 from './pages/references/Reference18';
 import AurelienMANCEAU from './pages/projects/AurelienMANCEAU';
 import BassidikiHAIDARA from './pages/projects/BassidikiHAIDARA';
 import EdouardDOMINIQUE from './pages/projects/EdouardDOMINIQUE';
@@ -69,6 +70,7 @@ function App() {
           <Route path="reference14" element={<Reference14 />} />
           <Route path="reference16" element={<Reference16 />} />
           <Route path="reference17" element={<Reference17 />} />
+          <Route path="reference18" element={<Reference18 />} />
         </Routes>
       </div>
     </Router>
