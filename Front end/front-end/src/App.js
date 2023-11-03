@@ -19,7 +19,6 @@ import Reference12 from './pages/references/Reference12';
 import Reference13 from './pages/references/Reference13';
 import Reference15 from './pages/references/Reference15';
 import Reference14 from './pages/references/Reference14';
-import Reference16 from './pages/references/Reference16';
 import Reference17 from './pages/references/Reference17';
 import Reference18 from './pages/references/Reference18';
 import Reference19 from './pages/references/Reference19';
@@ -69,7 +68,6 @@ function App() {
           <Route path="reference13" element={<Reference13 />} />
           <Route path="reference15" element={<Reference15 />} />
           <Route path="reference14" element={<Reference14 />} />
-          <Route path="reference16" element={<Reference16 />} />
           <Route path="reference17" element={<Reference17 />} />
           <Route path="reference18" element={<Reference18 />} />
           <Route path="reference19" element={<Reference19 />} />

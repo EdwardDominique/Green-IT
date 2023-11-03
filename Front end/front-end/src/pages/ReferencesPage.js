@@ -16,7 +16,6 @@ import ref12Image from '../pictures/ref12.png';
 import ref13Image from '../pictures/ref13.png';
 import ref15Image from '../pictures/ref15.png';
 import ref14Image from '../pictures/ref14.png';
-import ref16Image from '../pictures/ref16.png';
 import ref17Image from '../pictures/ref17.PNG';
 import ref18Image from '../pictures/ref18.png';
 import ref19Image from '../pictures/ref19.PNG';
@@ -112,12 +111,6 @@ function Reference() {
             imgSrc: ref15Image,
             description: "Le collectif API Thinking a introduit le label API Green Score pour promouvoir des APIs écoresponsables dans un contexte de prolifération numérique. Les APIs, malgré leur utilité, ont un impact environnemental significatif, contribuant à la pollution numérique et aux émissions de gaz à effet de serre. Ce label encourage les développeurs à considérer l'impact environnemental de leurs interfaces, en attribuant un score vert aux APIs respectueuses de l'environnement. Pour obtenir la certification, les APIs doivent répondre à des critères répartis en 7 domaines, incluant la gestion du cycle de vie et l'évaluation de la consommation d'énergie. En favorisant la durabilité des APIs, le label API Green Score constitue une initiative importante pour l'adoption de pratiques numériquement responsables.",
             auteur: 'Bassidiki HAIDARA'
-        },
-        {
-            titre: 'Pratiques informatiques vertes des entreprises et des ONG de premier plan',
-            imgSrc: ref16Image,
-            description: "Cet article traite de l'importance de la durabilité environnementale et du rôle des technologies de l'information (IT) dans cet objectif. Il souligne la nécessité de réduire l'utilisation des combustibles fossiles et de développer des sources d'énergie renouvelable pour parvenir à une société à faible émission de carbone.",
-            auteur: 'Loic BOURNONVILLE'
         },
         {
             titre: 'Green Planning Systems for Self-Consumption of Renewable Energy',
