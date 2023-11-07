@@ -41,3 +41,60 @@ figcaption {
 .img{
     margin-left: -450px;
 }
+
+/* 2 images côte à côte */
+.double-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.double-figure {
+    flex: 1;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+  
+.double-img {
+    width: 100%;
+    height: auto;
+}
+
+.double-figcaption {
+    text-align: 'center'; 
+    margin-top: '1em'; 
+}
+
+
+/* 1 image centré */
+.single-figure {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.single-img {
+    width: 100%; 
+    max-width: 2400px; 
+    height: auto; 
+
+}
+
+.single-figcaption {
+    text-align: 'center'; 
+    margin-top: '1em'; 
+}
+  
+  
+/* Media query pour les petits écrans, par exemple les téléphones */
+@media (max-width: 768px) {
+    .double-figure {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}

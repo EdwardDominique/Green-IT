@@ -179,15 +179,6 @@ non_recursive(900)
 display_results(capture_output(pyJoules_recursive), "Résultats boucle recursive")
 display_results(capture_output(pyJoules_nonRecursive), "Résultats boucle non recursive")`;
 
-
-
-
-
-
-
-
-
-
 function LeonardBONNEVILLE() {
     const navigate = useNavigate();
 
@@ -201,44 +192,49 @@ function LeonardBONNEVILLE() {
                 <button className="back-button" onClick={handleBack}>Retour</button>
             </div>
             <section id="main-section">
-                <h1>Mise en place Site Web avec React.js</h1>
+                <h1>Mise en place d'un Site Web avec React.js</h1>
                 <div class="collab">
                     <span>En collaboration avec Aurélien MANCEAU</span>
                 </div>
                 <section id="sub-section">
-                    <p>Création et mise a jour de se site web en collaboration avec Aurélien MANCEAU, notemment :l'infrastructure globale, la charte graphique des couleurs, le choix de l'image de fond du site, </p>
+                    <p>Création et mise à jour de ce site web en collaboration avec Aurélien MANCEAU, notamment :</p>
                     <ul>
-                        <li>l'infrastructure globale</li>
-                        <li>la charte graphique des couleurs</li>
-                        <li>l'image de fond du site</li>
-                        <li>la page projet</li>
-                        <li>ainsi que d'autres point vu en commun avec Aurélien MANCEAU</li>
+                        <li>Infrastructure globale.</li>
+                        <li>Charte graphique des couleurs.</li>
+                        <li>Image de fond du site.</li>
+                        <li>Page projet.</li>
+                        <li>Ainsi que d'autres points vu en commun avec Aurélien MANCEAU.</li>
                     </ul>
                 </section>
             </section>
             <section id="main-section"></section>     
 
             <section id="main-section">
-                <h1>Comparaison de différentes fonctions, analyse du temps d’execution, de la consommation en Python: Un pas de plus vers le Green IT</h1>
+                <h1>Comparaison de différentes fonctions, analyse du temps d’exécution, de la consommation en Python : Un pas de plus vers le Green IT</h1>
                 <section id="sub-section">
-                    <p>Le nombre de développeur ne fait que croitre d’année en année, tout comme notre consommation numérique. C’est pourquoi il devient de plus en plus nécessaire de faire des codes plus en adéquation avec le « Green IT ».</p>
+                    <p>Le nombre de développeurs ne fait qu'augmenter d’année en année, tout comme notre consommation numérique. C’est pourquoi il devient de plus en plus nécessaire de faire des codes plus en adéquation avec le « Green IT ».</p>
                 </section>
                 <section id="sub-section">
                     <h2>Présentation du Projet</h2>
-                    <p>Etant moi-même en formation d’informatique et application, il y a diverses questions que je me posais depuis quelques temps, quelle fonction est plus intéressante à utiliser si le choix est possible, for ? ou while ?</p>
-                    <p>Que choisir entre Select Case ou if/elif ? est un choix esthétique ou le temps d’exécution du code pourrait en partir ?</p>
-                    <p>diverses questions auxquelles j’apporterai des résultats concrets, que chacun pourra reprendre et pousser plus loin. C’est ainsi qu’on fera avancer le Green IT.</p>
+                    <p>En tant qu'étudiant en informatique et applications, je me suis retrouvé confronté à plusieurs interrogations persistantes. Lorsqu'il existe plusieurs options pour accomplir une tâche, comment choisir la plus pertinente ?</p>
+                    <ul>
+                        <li>For ou While : Ces deux structures de boucle ont leurs avantages, mais quelle est la plus recommandée en termes de Green IT ?</li>
+                        <li>Select Case ou if/elif : Est-ce une question de style, ou y a-t-il une différence notable dans le temps d'exécution du code qui pourrait influencer notre choix ?</li>
+                        <li>Incrémentation : 'i += 1' est-elle vraiment supérieure à 'i = i + 1', ou est-ce simplement une question de clarté du code ?</li>
+                        <li>Récursivité : Quels sont ses impacts ?</li>
+                    </ul>
+                    <p>Diverses questions auxquelles j’apporterai des résultats concrets, que chacun pourra reprendre et pousser plus loin. C’est ainsi qu’on fera avancer le Green IT.</p>
                 </section>
                 <section id="sub-section">
-                    <h2>Technologie Utilisée</h2>
+                    <h2>Technologies utilisées</h2>
                     <ul>
                         <li>pyRAPL:</li>
                         <ul>
-                            <li>pyRAPL est une bibliothèque Python qui permet de mesurer la consommation d'énergie des composants matériels d'un système informatique, en particulier le CPU et la DRAM, en utilisant le framework RAPL (Running Average Power Limit) intégré dans les processeurs modernes d'Intel. Plus d'informations sur pyRAPL peuvent être trouvées sur <a href="https://pyrapl.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">Documentation - pyRAPL</a>.</li>
+                            <li>pyRAPL est une bibliothèque Python qui permet de mesurer la consommation d'énergie des composants matériels d'un système informatique, en particulier le CPU et la DRAM, en utilisant le framework RAPL (Running Average Power Limit) intégré dans les processeurs modernes d'Intel. Plus d'informations sur pyRAPL peuvent être trouvées sur la <a href="https://pyrapl.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">Documentation - pyRAPL</a>.</li>
                         </ul>
                         <li>pyJoules:</li>
                         <ul>
-                            <li>pyJoules est également une bibliothèque Python destinée à la mesure de la consommation énergétique des systèmes informatiques. Elle permet d'obtenir des mesures de la consommation d'énergie au niveau des composants matériels en instrumentant les compteurs d'énergie disponibles sur la plateforme. Plus d'informations sur pyJoules peuvent être trouvées sur <a href="https://pyjoules.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">Documentation - pyJoules</a>.</li>
+                            <li>pyJoules est également une bibliothèque Python destinée à la mesure de la consommation énergétique des systèmes informatiques. Elle permet d'obtenir des mesures de la consommation d'énergie au niveau des composants matériels en instrumentant les compteurs d'énergie disponibles sur la plateforme. Plus d'informations sur pyJoules peuvent être trouvées sur la <a href="https://pyjoules.readthedocs.io/en/latest/" target="_blank" rel="noopener noreferrer">Documentation - pyJoules</a>.</li>
                         </ul>
                         <li>Visual Studio Code:</li>
                         <ul>
@@ -258,42 +254,46 @@ function LeonardBONNEVILLE() {
                 </section>
                 <section id="sub-section">
                     <h2>Méthodologie</h2>
-                    <p>J’ai décidé d’utiliser deux librairies qui calcul le temps d’exécution et la consommation du code afin d’avoir plusieurs sources de comparaison.</p>
-                    <p>Les librairies pyRAPL et pyJoules, lesquelles ne fonctionne que sur un système Linux. Pour se faire, j’ai effectué un dual boot sur mon système windows 11.</p>
-                    <p>J’ai effectué 4 comparaisons de code, pour ce faire je reprends la même bas pour chacun de ses codes et je modifie les fonctions à tester.</p>
-                    <p>J’utilise deux fonctions que j’utilise pour chacun des codes: </p>
+                    <p>J’ai décidé d’utiliser deux librairies qui calculent le temps d’exécution et la consommation du code afin d’avoir plusieurs sources de comparaison.</p>
+                    <p>Les librairies pyRAPL et pyJoules, lesquelles ne fonctionnent que sur un système Linux. Pour ce faire, j’ai effectué un dual boot sur mon système Windows 11.</p>
+                    <p>J’ai effectué 4 comparaisons de différents codes, tous reprenant les deux mêmes fonctions de calcul d'énergie :</p>
                     <ul>
                         <li>capture_output : cette fonction récupère la sortie de la fonction et la convertit en une chaine de caractère utilisable pour la suite.</li>
                         <figure>
-                        <CodeBlock codeString = {fonction_captureOutput}/>
-                        <figcaption>capture_output.py</figcaption>
+                            <CodeBlock codeString = {fonction_captureOutput}/>
+                            <figcaption>capture_output.py</figcaption>
                         </figure>
-                        <li>display_results : cette fonction récupère la chaîne de caractère de la fonction ‘capture_output’ et print les résultats selon les données pyRAPL et pyJoules qui lui sont envoyé.</li>
+                        <li>display_results : cette fonction récupère la chaîne de caractère de la fonction ‘capture_output’ et print les résultats selon les données pyRAPL et pyJoules qui lui sont envoyées.</li>
                         <figure>
-                        <CodeBlock codeString = {fonction_displayResults}/>
-                        <figcaption>display_results.py</figcaption>
+                            <CodeBlock codeString = {fonction_displayResults}/>
+                            <figcaption>display_results.py</figcaption>
                         </figure>
                     </ul>
-                    <p>Pour les tests, j’effectue 100 000 itérations des fonctions afin d’obtenir des résultats de consommation exploitable.</p>
-                    <p>Les unités de durées sont en secondes, l’énergie est en Joule, la puissance est en Watt.</p>
+                    <p>Pour les tests, j’effectue 100 000 itérations des fonctions afin d’obtenir des résultats de consommation exploitables.</p>
+                    <p>Les unités de durée sont en secondes, l’énergie est en Joules, la puissance est en Watts.</p>
                 </section>
 
                 <section id="sub-section">
                     <h2>1ère comparaison: While vs For</h2>
-                    <p>Les boucles for et while possèdent certaines similarités, toutes deux permettent d’effectuer une boucle a de multiple reprise, tandis que la boucle « while attend la validation d’une condition, la boucle ‘for’ s’exécute un nombre de fois donnée.</p>
+                    <p>Les boucles for et while possèdent certaines similarités, toutes deux permettant d’effectuer une boucle à de multiples reprises.</p>
+                    <p>Tandis que la boucle while attend la validation d’une condition, la boucle for s’exécute un nombre de fois donné.</p>
                     <p>Pour ce test, les deux boucles effectueront la même tâche et exécuteront le même nombre de répétitions afin de permettre la meilleure comparaison possible.</p>
                     <figure>
                         <CodeBlock codeString = {code_whileFor}/>
                         <figcaption>While_For.py</figcaption>
                     </figure>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <figure style={{ marginRight: 'auto' }}>
-                            <img src={fig_whileFor_pyRAPL} alt="pyRAPL: while vs for" style={{ transform: 'scale(0.75)', borderRadius: '25px' }}/>
-                            <figcaption>pyRAPL: while vs for</figcaption>
+                    <div className="double-container">
+                        <figure className="double-figure">
+                            <img 
+                            src={fig_whileFor_pyRAPL}      alt="pyRAPL: while vs for"       className="double-img"
+                            />
+                            <figcaption className="double-figcaption">pyRAPL: while vs for</figcaption>
                         </figure>
-                        <figure style={{ marginLeft: 'auto' }}>
-                            <img src={fig_whileFor_pyJoules} alt="pyJoules: while vs for" style={{ transform: 'scale(0.75)', borderRadius: '25px' }}/>
-                            <figcaption>pyJoules: while vs for</figcaption>
+                        <figure className="double-figure">
+                            <img 
+                            src={fig_whileFor_pyJoules}    alt="pyJoules: while vs for"     className="double-img"
+                            />
+                            <figcaption className="double-figcaption">pyJoules: while vs for</figcaption>
                         </figure>
                     </div>
                     <ul>
@@ -339,21 +339,25 @@ function LeonardBONNEVILLE() {
 
                 <section id="sub-section">
                     <h2>2eme comparaison: Select case vs if/elif </h2>
-                    <p>Select case et if/elif sont deux instructions qui peuvent être utiliser pour la même chose bien que dans certain cas, l’instruction if permettra une plus grande liberté que Select case.</p>
-                    <p>Select case permet d’observer une ou plusieurs variables et de faire des tâches selon l’état de la variable tandis qu’if observe une ou plusieurs conditions et effectue des tâches selon leur état.</p>
-                    <p>Dans le code, j’ai mis une condition que ne sera jamais vrai afin de forcer le compilateur à analyser 3 conditions dans les deux cas.</p>
+                    <p>Select Case et if/elif sont deux instructions qui peuvent être utilisées pour la même chose, bien que dans certains cas, l’instruction if offre une plus grande liberté que Select Case.</p>
+                    <p>Select Case permet d’observer une ou plusieurs variables et de faire des tâches selon l’état de la variable tandis qu’if observe une ou plusieurs conditions et effectue des tâches si les conditions sont remplies.</p>
+                    <p>Dans le code, j’ai mis une condition qui ne sera jamais vraie afin de forcer le compilateur à analyser 3 conditions dans les deux cas.</p>
                     <figure>
                         <CodeBlock codeString = {code_selectCase}/>
                         <figcaption>Select Case_if.py</figcaption>
                     </figure>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <figure style={{ marginRight: 'auto' }}>
-                            <img src={fig_selectCase_pyRAPL} alt="pyRAPL: Select Case vs if/elif" style={{ transform: 'scale(0.75)', borderRadius: '25px' }}/>
-                            <figcaption>pyRAPL: Select Case vs if/elif</figcaption>
+                    <div className="double-container">
+                        <figure className="double-figure">
+                            <img 
+                            src={fig_selectCase_pyRAPL}      alt="pyRAPL: Select Case vs if/elif"       className="double-img"
+                            />
+                            <figcaption className="double-figcaption">pyRAPL: Select Case vs if/elif</figcaption>
                         </figure>
-                        <figure style={{ marginLeft: 'auto' }}>
-                            <img src={fig_selectCase_pyJoules} alt="pyJoules: Select Case vs if/elif" style={{ transform: 'scale(0.75)', borderRadius: '25px' }}/>
-                            <figcaption>pyJoules: Select Case vs if/elif</figcaption>
+                        <figure className="double-figure">
+                            <img 
+                            src={fig_selectCase_pyJoules}    alt="pyJoules: Select Case vs if/elif"     className="double-img"
+                            />
+                            <figcaption className="double-figcaption">pyJoules: Select Case vs if/elif</figcaption>
                         </figure>
                     </div>
                     <ul>
@@ -402,19 +406,28 @@ function LeonardBONNEVILLE() {
 
                 <section id="sub-section">
                     <h2>3eme comparaison: i += 1 vs i = i + 1</h2>
-                    <p>Ici je compare deux lignes de code qui effectuent la même action mais qui s’écrivent de façon différente.</p>
+                    <p>Je compare ici deux façons d'incrémenter une variable :</p>
+                    <ul>
+                        <li>l'opérateur d'assignation augmentée 'i += 1'</li>
+                        <li>l'expression 'i = i + 1'</li>
+                    </ul> 
+                    <p>Ces deux options sont fonctionnellement identiques mais présentent des différences syntaxiques.</p>
                     <figure>
                         <CodeBlock codeString = {code_increment}/>
                         <figcaption>Incrémentation.py</figcaption>
                     </figure>
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-                        <figure style={{ marginRight: 'auto' }}>
-                            <img src={fig_increment_pyRAPL} alt="pyRAPL: i += 1 vs i = i + 1" style={{ transform: 'scale(0.75)', borderRadius: '25px' }}/>
-                            <figcaption>pyRAPL: i += 1 vs i = i + 1</figcaption>
+                    <div className="double-container">
+                        <figure className="double-figure">
+                            <img 
+                            src={fig_increment_pyRAPL}      alt="pyRAPL: i += 1 vs i = i + 1"       className="double-img"
+                            />
+                            <figcaption className="double-figcaption">pyRAPL: i += 1 vs i = i + 1</figcaption>
                         </figure>
-                        <figure style={{ marginLeft: 'auto' }}>
-                            <img src={fig_increment_pyJoules} alt="pyJoules: i += 1 vs i = i + 1" style={{ transform: 'scale(0.75)', borderRadius: '25px' }}/>
-                            <figcaption>pyJoules: i += 1 vs i = i + 1</figcaption>
+                        <figure className="double-figure">
+                            <img 
+                            src={fig_increment_pyJoules}    alt="pyJoules: i += 1 vs i = i + 1"     className="double-img"
+                            />
+                            <figcaption className="double-figcaption">pyJoules: i += 1 vs i = i + 1</figcaption>
                         </figure>
                     </div>
                     <ul>
@@ -466,15 +479,15 @@ function LeonardBONNEVILLE() {
                 <section id="sub-section">
                     <h2>4eme comparaison: Fonction récursive vs Non récursive</h2>
                     <p>Il arrive que l’on doive utiliser une fonction récursive, généralement dans un algorithme.</p>
-                    <p>J’étais curieux de faire une analyse entre une fonction récursive et une faisant la même action mais sans récursivité.</p>
-                    <p>Pour cette comparaison, la librairie pyRAPL n’a pas fournis de données concluantes, je me suis donc limité à la libraire pyJoules.</p>
+                    <p>J’étais curieux de réaliser une analyse entre une fonction récursive et une faisant la même action mais sans récursivité.</p>
+                    <p>Pour cette comparaison, la librairie pyRAPL n’a pas fourni de données concluantes, je me suis donc limité à la librairie pyJoules.</p>
                     <figure>
                         <CodeBlock codeString = {code_recursif}/>
                         <figcaption>recursivité.py</figcaption>
                     </figure>
-                    <figure style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-                        <img src={fig_recursif_pyJoules} alt="resultat" style={{ transform: 'scale(1)', borderRadius: '25px' }}/>
-                        <figcaption style={{ marginTop: 'auto' }}>pyJoules: Fonction récursive vs Non récursive</figcaption>
+                    <figure className="single-figure">
+                        <img src={fig_recursif_pyJoules}    alt="Fonction récursive vs Non récursive"      className="single-img"/>
+                        <figcaption className="single-figcaption">pyJoules: Fonction récursive vs Non récursive</figcaption>
                     </figure>
                     <ul>
                         <li>
@@ -502,21 +515,12 @@ function LeonardBONNEVILLE() {
                             <h3>Implications pour le Green IT</h3>
                             <ul>
                                 <li>D'un point de vue Green IT, les boucles non récursives semblent être plus efficientes en termes d'énergie et de temps d'exécution par rapport aux boucles récursives.</li>
-                                <li>Néanmoins, il y a des moment ou la récursivité permet d’effectuer des code plus complexes, à utiliser lorsque nécessaire.</li>
+                                <li>Néanmoins, il y a des moments où la récursivité permet d’effectuer des codes plus complexes, à utiliser lorsque c’est nécessaire.</li>
                             </ul>
                         </li>
                     </ul>
                 </section>
             </section>
-
-
-
-
-
-
-
-
-            
         </div>
     );
 }
