@@ -26,7 +26,7 @@ export const dataProjetSite =
                                         <li>Page projet.</li>,
                                         <li>Ainsi que d'autres points vu en commun avec Aurélien MANCEAU.</li>,
                                     ],
-                        balises: ['ul']
+                        balises: ['ul']     // ajoute cette balise en amont de "contenu"
                     },
                 },
             },
@@ -51,7 +51,7 @@ export const dataProjetGreenIT =
                                     <li>Incrémentation : 'i += 1' est-elle vraiment supérieure à 'i = i + 1', ou est-ce simplement une question de clarté du code ?</li>,
                                     <li>Récursivité : Quels sont ses impacts ?</li>,
                                     ],
-                        balises: ['ul']
+                        balises: ['ul']   // ajoute cette balise en amont de "contenu"
                     },
                 },
                 conclusion: [<p>Diverses questions auxquelles j’apporterai des résultats concrets, que chacun pourra reprendre et pousser plus loin. C’est ainsi qu’on fera avancer le Green IT.</p>,
@@ -85,7 +85,7 @@ export const dataProjetGreenIT =
                                         <li>Le dual boot d'Ubuntu avec un autre système d'exploitation offre une flexibilité permettant aux utilisateurs de bénéficier des avantages spécifiques de chaque système, tout en conservant la possibilité de basculer entre eux selon les besoins.</li>
                                     </ul>
                                     ],
-                        balises: ['ul']
+                        balises: ['ul']     // ajoute cette balise en amont de "contenu"
                     },
                   },
             },
@@ -104,12 +104,12 @@ export const dataProjetGreenIT =
                     "captureOutput": {
                         codeString: fonction_captureOutput,
                         caption: "capture_output.py",
-                        balises : ['ul']
+                        balises : ['ul']    // ajoute cette balise en amont de "contenu"
                       },
                     "displayResults": {
                         codeString: fonction_displayResults,
                         caption: "display_results.py",
-                        balises : ['ul']
+                        balises : ['ul']    // ajoute cette balise en amont de "contenu"
                       }
                   },
                 conclusion: [<p>Pour les tests, j’effectue 100 000 itérations des fonctions afin d’obtenir des résultats de consommation exploitables.</p>,
@@ -154,7 +154,7 @@ export const dataProjetGreenIT =
                                         <li>Pour maximiser l'efficacité énergétique dans le cadre du Green IT, il peut être judicieux d'opter pour des structures de boucle While lorsqu'elles sont appropriées, car elles semblent consommer moins d'énergie, utiliser moins de puissance et s'exécuter légèrement plus rapidement.</li>
                                         <li>Cependant, l'impact réel sur l'efficacité énergétique dépendra également d'autres facteurs, comme la complexité du code à l'intérieur des boucles et les optimisations du compilateur.</li>
                                     </ul>,],
-                        balises: ['ul']
+                        balises: ['ul'] // ajoute cette balise en amont de "contenu"
                     },                                      
                 },
 
@@ -175,7 +175,7 @@ export const dataProjetGreenIT =
                         src_pyJoules: fig_whileFor_pyJoules,
                         alt_pyJoules: "pyJoules: while vs for",
                         caption_pyJoules: "pyJoules: while vs for",
-                        balises : []
+                        balises : []    // ajoute cette balise en amont de "contenu"
                       },
                 },
             },
@@ -221,7 +221,7 @@ export const dataProjetGreenIT =
                                         <li>L'impact réel sur l'efficacité énergétique dépendra également d'autres facteurs, tels que la complexité du code à l'intérieur des structures de contrôle et les optimisations du compilateur.</li>
                                         <li>Il peut être judicieux de considérer ces résultats lors de la conception de codes, tout en recherchant d'autres stratégies pour réduire la consommation d'énergie et la puissance.</li>
                                     </ul>,],
-                        balises: ['ul']
+                        balises: ['ul']     // ajoute cette balise en amont de "contenu"
                     },                                      
                 },
 
@@ -229,7 +229,7 @@ export const dataProjetGreenIT =
                     "figIntroduction": {
                         codeString: code_selectCase,
                         caption: "Select Case_if.py",
-                        balises : []
+                        balises : []        // ajoute cette balise en amont de "contenu"
                       }
                   },
 
@@ -293,7 +293,7 @@ export const dataProjetGreenIT =
                                         <li>Cependant, l'impact réel sur l'efficacité énergétique pourrait être influencé par d'autres facteurs tels que l’optimisations du compilateur Python.</li>
                                         <li>Cette analyse offre un aperçu de la manière dont des modifications syntaxiques mineures peuvent contribuer à l'efficacité énergétique globale, un élément clé du Green IT.</li>
                                     </ul>,],
-                        balises: ['ul']
+                        balises: ['ul']     // ajoute cette balise en amont de "contenu"
                     },                                      
                 },
 
@@ -301,7 +301,7 @@ export const dataProjetGreenIT =
                     "figIntroduction": {
                         codeString: code_increment,
                         caption: "Incrémentation.py",
-                        balises : []
+                        balises : []        // ajoute cette balise en amont de "contenu"
                       },
                   },
 
@@ -349,7 +349,7 @@ export const dataProjetGreenIT =
                                         <li>D'un point de vue Green IT, les boucles non récursives semblent être plus efficientes en termes d'énergie et de temps d'exécution par rapport aux boucles récursives.</li>
                                         <li>Néanmoins, il y a des moments où la récursivité permet d’effectuer des codes plus complexes, à utiliser lorsque c’est nécessaire.</li>
                                     </ul>,],
-                        balises: ['ul']
+                        balises: ['ul']     // ajoute cette balise en amont de "contenu"
                     },                                      
                 },
 
@@ -357,7 +357,7 @@ export const dataProjetGreenIT =
                     "figIntroduction": {
                         codeString: code_recursif,
                         caption: "recursivité.py",
-                        balises : []
+                        balises : []        // ajoute cette balise en amont de "contenu"
                       },
                   },
 

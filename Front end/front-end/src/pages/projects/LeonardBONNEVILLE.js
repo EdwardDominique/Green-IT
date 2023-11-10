@@ -33,7 +33,7 @@ function LeonardBONNEVILLE() {
                     {projet.title && affichageText(projet.title)}
                     {projet.collaboration && (<div className="collab">    <span>{projet.collaboration}</span>   </div>)}
                     {projet.sections.map((section, sectionDictKey) => (
-                    <section key={`${projetDictKey}-${sectionDictKey}`} id="sub-section">
+                    <section key={`${projetDictKey}-${sectionDictKey}`} id="sub-section"> 
                         {section.subtitle && affichageText(section.subtitle)}
                         {section.text && affichageText(section.text)}              
                         {section.figCodes && affichageCode(section.figCodes["figIntroduction"])}    
