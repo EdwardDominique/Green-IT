@@ -71,25 +71,25 @@ function Reference() {
             auteur: 'Flavien GAUTIER'
         },
         {
-            titre: 'IBM Cloud Carbon Calculator Aims to Aid Enterprise Sustainability Efforts',
+            titre: 'Le calculateur de carbone du cloud IBM vise à aider les entreprises dans leurs efforts de développement durable',
             imgSrc: ref9Image,
             description: "IBM utilise son expertise en matière d'IA pour améliorer les initiatives de développement durable en aidant les entreprises à mieux comprendre l'impact de l'informatique dématérialisée sur l'environnement.",
             auteur: 'Maxime MOREL'
         },
         {
-            titre: 'A sustainable and secure load management model for green cloud data centres',
+            titre: 'Un modèle de gestion de la charge durable et sécurisé pour les cloud écologique',
             imgSrc: ref10Image,
             description: "Un modèle SaS-LM propose une gestion de charge durable et sécurisée pour les centres de données cloud. Il utilise l'optimisation DPBHO pour réduire les émissions de carbone, la consommation d'énergie et améliorer l'utilisation des ressources.",
             auteur: 'Maxime MOREL'
         },
         {
-            titre: 'Resource-aware Programming in a High-level Language',
+            titre: 'Programmation tenant compte des ressources dans un langage de haut niveau',
             imgSrc: ref11Image,
             description: "La programmation tenant compte des ressources dans les langages de haut niveau sur les MPSoC est réalisable avec un effort gérable et améliore les performances.",
             auteur: 'Maxime MOREL'
         },
         {
-            titre: 'Making software and data architectures more sustainable',
+            titre: 'Rendre les architectures de logiciels et de données plus durables',
             imgSrc: ref12Image,
             description: "Les éditeurs de logiciels ont la possibilité de réduire les émissions de carbone des applications en réévaluant les approches traditionnelles et en intégrant dès le départ la notion de durabilité.",
             auteur: 'Maxime MOREL'
